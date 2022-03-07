@@ -1,0 +1,24 @@
+$primary-text-color: #7e54de;
+.skillsContent{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 60px 60px;
+
+  background-color: #252525;
+
+  h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: $primary-text-color;
+  }
+  .skillsText{
+ 
+    width: 400px;
+  }
+  .skillsImage{
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -9,5 +9,21 @@
 
 :root {
   background-color: #151515;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7e54de;
+  border-radius: 20px;
+  border: solid 2px #252525;
 }
 /*# sourceMappingURL=index.css.map */

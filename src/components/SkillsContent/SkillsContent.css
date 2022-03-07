@@ -1,0 +1,31 @@
+.skillsContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 60px;
+  background-color: #252525;
+}
+
+.skillsContent h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #7e54de;
+}
+
+.skillsContent .skillsText {
+  width: 400px;
+}
+
+.skillsContent .skillsImage {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=SkillsContent.css.map */
