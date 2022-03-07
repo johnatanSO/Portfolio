@@ -67,6 +67,13 @@
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 5px;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.projectsContent .gridProjects li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .projectsContent .gridProjects li .visitButton {
