@@ -1,0 +1,105 @@
+.headerContent {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../../../public/assets/images/mountain-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(10%, black));
+  -webkit-mask-image: linear-gradient(to top, transparent, black 10%);
+          mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(10%, black));
+          mask-image: linear-gradient(to top, transparent, black 10%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* background-color: red; */
+}
+
+.headerContent .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: initial;
+      align-self: initial;
+  /* background-color: green; */
+  width: 100vw;
+  padding: 20px 60px;
+}
+
+.headerContent .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerContent nav {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerContent li {
+  margin-left: 15px;
+  list-style-type: none;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.headerContent li:hover {
+  color: #7e54de;
+}
+
+.headerContent h1 {
+  height: 40px;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  color: #7e54de;
+}
+
+.headerContent h1:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.headerContent .welcomeContent {
+  /* background-color: blue; */
+  width: 550px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.headerContent .welcomeContent h2 {
+  font-size: 56px;
+  margin-bottom: 5px;
+}
+
+.headerContent .welcomeContent h3 {
+  color: #7e54de;
+  margin-top: 70px;
+}
+/*# sourceMappingURL=Header.css.map */

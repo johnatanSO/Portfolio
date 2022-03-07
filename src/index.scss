@@ -1,0 +1,11 @@
+$bg-color:#151515;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: white
+}
+:root{
+  background-color:$bg-color;
+}

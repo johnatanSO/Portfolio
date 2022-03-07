@@ -1,5 +1,73 @@
-.header{
-  background-color: red;
-  width: 200px;
-  height: 200px;
+$primary-text-color: #7e54de;
+.headerContent{
+  width: 100vw;
+  height: 70vh;
+  
+  
+  background-image: url('../../../public/assets/images/mountain-bg.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  mask-image: linear-gradient(to top, transparent, black 10%);
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+  
+
+  .header{
+    display: flex;
+    justify-content:space-between;
+    align-self: initial;
+    /* background-color: green; */
+    width: 100vw;
+    padding: 20px 60px;
+  }
+  .menuList{
+    display: flex;
+  }
+  
+  nav{
+    height:40px;
+    display: flex;
+    align-items: center;
+  }
+  li{
+    margin-left: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    transition:0.2s ease-out;
+    &:hover{
+      color:$primary-text-color;
+    }
+  }
+  h1{
+    height:40px;
+    cursor: pointer;
+    transition:0.2s ease-out;
+    color:$primary-text-color;
+
+    &:hover{
+      transform: scale(1.04);
+    }
+  }
+
+  .welcomeContent{
+    /* background-color: blue; */
+    
+    width:550px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+    h2{
+      font-size: 56px;
+      margin-bottom: 5px;
+    }
+    h3{
+      color:$primary-text-color;
+      margin-top:70px;
+    }
+  }
 }
