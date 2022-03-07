@@ -1,0 +1,94 @@
+.projectsContent {
+  padding: 60px 60px;
+  background-color: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projectsContent .headerProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projectsContent h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #7e54de;
+}
+
+.projectsContent .projectsText {
+  width: 400px;
+}
+
+.projectsContent .projectsImage {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectsContent .gridProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.projectsContent .gridProjects li {
+  margin-top: 30px;
+  width: 250px;
+  height: 300px;
+  background-color: #323232;
+  list-style-type: none;
+  -webkit-box-shadow: 3px 3px 7px #101010;
+          box-shadow: 3px 3px 7px #101010;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+}
+
+.projectsContent .gridProjects li .visitButton {
+  background-color: #7e54de;
+  border: 2px solid #7e54de;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  font-weight: 500;
+  padding: 0.6rem;
+  width: 100px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.projectsContent .gridProjects li .visitButton:hover {
+  background-color: #323232;
+  border: 2px solid #7e54de;
+  color: #7e54de;
+  -webkit-box-shadow: 2px 2px 5px #212121;
+          box-shadow: 2px 2px 5px #212121;
+}
+/*# sourceMappingURL=Projects.css.map */

@@ -1,4 +1,5 @@
 .skillsContent {
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,7 +7,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 60px 60px;
-  background-color: #252525;
+  background-color: #1f1f1f;
 }
 
 .skillsContent h2 {
