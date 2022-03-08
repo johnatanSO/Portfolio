@@ -17,7 +17,7 @@ function Header(){
 
       <div className="welcomeContent">
         <h2>Olá, seja bem vindo!</h2>
-        <p>Esse é o meu portfólio, um desenvolvedor web focado na área de front end que adora desafios. </p>
+        <p>Meu nome é Johantan, sou um desenvolvedor web e esse é o meu portfólio mostrando alguns projetos e contando um pouco sobre minha experiência como desenvolvedor.</p>
         <h3>Conheça um pouco mais abaixo</h3>
       </div>
     </div>

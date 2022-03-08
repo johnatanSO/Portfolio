@@ -7,20 +7,18 @@ $primary-text-color: #7e54de;
   background-image: url('../../../public/assets/images/mountain-bg.svg');
   background-repeat: no-repeat;
   background-size:cover;
-  mask-image: linear-gradient(to top, transparent, black 10%);
+  mask-image: linear-gradient(to top, transparent, black 15%);
   
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: red; */
   
 
   .header{
     display: flex;
     justify-content:space-between;
     align-self: initial;
-    /* background-color: green; */
     width: 100vw;
     padding: 20px 60px;
   }
@@ -53,21 +51,19 @@ $primary-text-color: #7e54de;
     }
   }
 
-  .welcomeContent{
-    /* background-color: blue; */
-    
+  .welcomeContent{    
     width:550px;
     height:200px;
     display: flex;
     flex-direction: column;
-    margin-bottom:50px;
+    margin-bottom:60px;
     h2{
       font-size: 56px;
       margin-bottom: 5px;
     }
     h3{
       color:$primary-text-color;
-      margin-top:70px;
+      margin-top:60px;
     }
   }
 }

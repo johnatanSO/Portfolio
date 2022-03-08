@@ -16,7 +16,7 @@ function Projects() {
       </div>
 
       <ul className="gridProjects">
-        <li className="project1"><button className="visitButton">Visit</button></li>
+        <li className="todo"><h4>To-do list</h4><a href="https://to-do-list-react-bice.vercel.app/"><button className="visitButton">Visit</button></a></li>
         <li className="project2"><button className="visitButton">Visit</button></li>
         <li className="project3"><button className="visitButton">Visit</button></li>
         <li className="project4"><button className="visitButton">Visit</button></li>

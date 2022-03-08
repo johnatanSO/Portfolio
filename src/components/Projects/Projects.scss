@@ -31,20 +31,28 @@ $primary-text-color: #7e54de;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+    .todo{
+      background-image: url("../../../public/assets/images/todoPrint.png");
+      background-size: 90%;
+      background-repeat: no-repeat;
+      background-position: center 20px;
+    }
 
     li{
-      margin-top: 30px;
-      width:250px;
-      height:300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:flex-end;
+      margin-top: 25px;
+      width:280px;
+      height:320px;
       background-color: rgb(50, 50, 50);
       list-style-type: none;
       box-shadow: 3px 3px 7px rgb(16, 16, 16);
-      display: flex;
-      justify-content: center;
       border-radius: 5px;
       transition:0.2s ease-out;
       &:hover{
-        transform: scale(1.02)
+        transform: scale(1.02);
       }
       
       .visitButton{
@@ -55,7 +63,7 @@ $primary-text-color: #7e54de;
         font-weight: 500;
         padding: 0.6rem;
         width: 100px;
-        align-self: flex-end;
+        height:40px;
         margin-bottom: 15px;
         cursor: pointer;
         border-radius: 5px;
@@ -67,6 +75,10 @@ $primary-text-color: #7e54de;
           box-shadow: 2px 2px 5px rgb(33, 33, 33);
           
         }
+      }
+      h4{
+        margin-bottom:50px;
+        color: $primary-text-color;
       }
     }
   }
