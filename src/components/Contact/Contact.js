@@ -13,8 +13,8 @@ function Contact() {
       </div>
 
       <ul className="gridContact">
-        <li className="todo"></li>
-        <li className="apiFilms"></li>
+        <li className="todo"><img alt="github" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"/><p>Github</p></li>
+        <li className="apiFilms"><img alt="linkedin" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"/><p>Github</p></li>
         <li className="project3"></li>
         <li className="project4"></li>
         <li className="project5"></li>

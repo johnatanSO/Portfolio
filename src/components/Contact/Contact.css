@@ -21,14 +21,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 30px;
 }
 
@@ -36,20 +34,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  margin-top: 5px;
-  width: 280px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  width: 170px;
   height: 40px;
   list-style-type: none;
   -webkit-box-shadow: 3px 3px 7px #101010;
           box-shadow: 3px 3px 7px #101010;
+  background-color: #2b2b2b;
   border-radius: 5px;
-  position: relative;
   cursor: pointer;
   -webkit-transition: 0.11s ease-out;
   transition: 0.11s ease-out;
@@ -58,5 +53,20 @@
 .contactContent .gridContact li:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+}
+
+.contactContent .gridContact li p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  justify-self: center;
+}
+
+.contactContent .gridContact li img {
+  height: 80%;
+  margin-left: 5px;
+  -webkit-filter: invert(100);
+          filter: invert(100);
 }
 /*# sourceMappingURL=Contact.css.map */
