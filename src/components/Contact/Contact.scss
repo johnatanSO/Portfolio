@@ -1,0 +1,46 @@
+$primary-text-color: #7e54de;
+.contactContent{
+  padding: 60px 60px;
+
+  margin-top: 20px;
+  
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: $primary-text-color;
+  }
+
+  .gridContact{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    li{
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      margin-top: 5px;
+      width:280px;
+      height:40px;
+      list-style-type: none;
+      box-shadow: 3px 3px 7px rgb(16, 16, 16);
+      border-radius: 5px;
+      
+      position:relative;
+
+      cursor: pointer;
+      transition:0.11s ease-out;
+
+      &:hover{
+        transform: scale(1.02);
+      }
+    }
+  }
+}

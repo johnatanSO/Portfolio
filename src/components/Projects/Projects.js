@@ -17,11 +17,11 @@ function Projects() {
 
       <ul className="gridProjects">
         <li className="todo"><img src="/assets/images/todoPrint.png"/><h4>To-do list</h4><button className="visitButton">Visit</button></li>
-        <li className="project2"><button className="visitButton">Visit</button></li>
-        <li className="project3"><button className="visitButton">Visit</button></li>
-        <li className="project4"><button className="visitButton">Visit</button></li>
-        <li className="project5"><button className="visitButton">Visit</button></li>
-        <li className="project6"><button className="visitButton">Visit</button></li>
+        <li className="apiFilms"><img src="/assets/images/moviesPrint.png"/><h4>Jetflix</h4><button className="visitButton">Visit</button></li>
+        <li className="project3"><img src="/assets/images/schoolPrint.png"/><h4>Sistema escolar</h4><button className="visitButton">Visit</button></li>
+        <li className="project4"><img src="/assets/images/memoryPrint.png"/><h4>Jogo da memória</h4><button className="visitButton">Visit</button></li>
+        <li className="project5"><img src="/assets/images/jogoDaVelhaPrint.png"/><h4>Jogo da velha</h4><button className="visitButton">Visit</button></li>
+        <li className="project6"><img src="/assets/images/playerPrint.png"/><h4>Music player</h4><button className="visitButton">Visit</button></li>
       </ul>
     </section>
   )
