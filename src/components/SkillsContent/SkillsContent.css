@@ -62,4 +62,10 @@
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
+
+p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=SkillsContent.css.map */

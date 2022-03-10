@@ -7,21 +7,26 @@ function Projects() {
 
       <div className="headerProjects">
         <div className="projectsText">
-          <h2>Projects</h2>
-          <p>Lorem Ipsum is simply dumetting industry. Lorem Ipsum has been the industry's standard dummy text ever since th desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <h2>Projetos</h2>
+          <p>Abaixo estão alguns dos meus projetos que fiz usando os conhecimentos adquiridos durante esse tempo. Todos eles estão disponíveis no meu <a href="https://github.com/johnatanSO">Github</a> em seus respectivos repositórios. Para visitar, é só clicar e aproveitar.</p>
         </div>
         <div className="projectsImage">
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
+          {/* <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettwhen looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p> */}
         </div>
       </div>
 
       <ul className="gridProjects">
-        <li className="todo"><img alt="" src="/assets/images/todoPrint.png"/><h4>To-do list</h4><button className="visitButton">Visit</button></li>
-        <li className="apiFilms"><img alt="" src="/assets/images/moviesPrint.png"/><h4>Jetflix</h4><button className="visitButton">Visit</button></li>
-        <li className="project3"><img alt="" src="/assets/images/schoolPrint.png"/><h4>Sistema escolar</h4><button className="visitButton">Visit</button></li>
-        <li className="project4"><img alt="" src="/assets/images/memoryPrint.png"/><h4>Jogo da memória</h4><button className="visitButton">Visit</button></li>
-        <li className="project5"><img alt="" src="/assets/images/jogoDaVelhaPrint.png"/><h4>Jogo da velha</h4><button className="visitButton">Visit</button></li>
-        <li className="project6"><img alt="" src="/assets/images/playerPrint.png"/><h4>Music player</h4><button className="visitButton">Visit</button></li>
+        <li className="todo"><img alt="" src="/assets/images/todoPrint.png"/><p>Esse é um pojeto de uma to-do list para que você consiga organizar suas tarefas da maneira mais prática possível.</p><button className="visitButton">Visitar</button></li>
+
+        <li className="apiFilms"><img alt="" src="/assets/images/moviesPrint.png"/><p>Esse é um projeto de uma biblioteca de filmes e séries construído com ReactJS e usando a API RESTful OMdb.</p><button className="visitButton">Visitar</button></li>
+
+        <li className="project3"><img alt="" src="/assets/images/schoolPrint.png"/><p>Esse é um sistema escolar feito para controlar e gerenciar dados de alunos como: notas, faltas e advertências. Construído com o banco de dados Firebase. </p><button className="visitButton">Visitar</button></li>
+
+        <li className="project4"><img alt="" src="/assets/images/memoryPrint.png"/><p>Um jogo da memória simples para que você possa se distraír um pouco de forma rápida. Construído com HTML, CSS e Javascript puro.</p><button className="visitButton">Visitar</button></li>
+
+        <li className="project5"><img alt="" src="/assets/images/jogoDaVelhaPrint.png"/><p>Um clássico jogo da velha para que você possa jogar com algum amigo e se divertir. Construído com HTML, CSS e Javascript puro. </p><button className="visitButton">Visitar</button></li>
+
+        <li className="project6"><img alt="" src="/assets/images/playerPrint.png"/><p>Um player de música para você ouvir as suas músicas favoritas enquanto faz qualquer coisa durante o dia. Construído com HTML, CSS e Javascript puro.</p><button className="visitButton">Visitar</button></li>
       </ul>
     </section>
   )

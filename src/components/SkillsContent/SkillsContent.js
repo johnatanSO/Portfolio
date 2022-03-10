@@ -5,8 +5,8 @@ function SkillsContent(){
   return(
     <section className="skillsContent">
         <div className="skillsText">
-          <h2>Skills and experience</h2>
-          <p>Lorem Ipsum is simply dumetting industry. Lorem Ipsum has been the industry's standard dummy text ever since th desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <h2>Skills e experiência</h2>
+          <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web à pelo menos um ano. Algumas das tecnologias e skills técnicas que venho estudando e aplicando durante esse tempo são: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT e Firebase. E no momento, tenho começado a adentrar no mundo de NodeJS e React Native para expandir meus conhecimentos cada vez mais. </p>
         </div>
         <ul className="skillsImageGrid">
 

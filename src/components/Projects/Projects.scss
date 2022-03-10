@@ -18,6 +18,10 @@ $primary-text-color: #7e54de;
   }
   .projectsText{
     width: 400px;
+    a{
+      color: $primary-text-color;
+      font-weight: 500;
+    }
   }
   .projectsImage{
     width: 400px;
@@ -77,13 +81,16 @@ $primary-text-color: #7e54de;
         pointer-events: none;
       }
 
-      h4{
-        font-size: 1.5rem;
-        color: $primary-text-color;
+      p{
+        font-size: 0.9rem;
+        text-align: center;
+        top: 5%;
+        margin: 5px;
+        line-height: 20px;
         position:absolute;
         z-index: 2;
-        top: 50%;
         pointer-events: none;
+        color:$primary-text-color;
       }
 
       img{

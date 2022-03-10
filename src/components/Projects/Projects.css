@@ -29,6 +29,11 @@
   width: 400px;
 }
 
+.projectsContent .projectsText a {
+  color: #7e54de;
+  font-weight: 500;
+}
+
 .projectsContent .projectsImage {
   width: 400px;
   display: -webkit-box;
@@ -96,13 +101,16 @@
   pointer-events: none;
 }
 
-.projectsContent .gridProjects li h4 {
-  font-size: 1.5rem;
-  color: #7e54de;
+.projectsContent .gridProjects li p {
+  font-size: 0.9rem;
+  text-align: center;
+  top: 5%;
+  margin: 5px;
+  line-height: 20px;
   position: absolute;
   z-index: 2;
-  top: 50%;
   pointer-events: none;
+  color: #7e54de;
 }
 
 .projectsContent .gridProjects li img {
