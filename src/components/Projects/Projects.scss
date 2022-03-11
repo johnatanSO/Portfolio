@@ -51,11 +51,16 @@ $primary-text-color: #7e54de;
       position:relative;
 
       cursor: pointer;
-      transition:0.11s ease-out;
+      transition:0.2s ease-out;
 
       &:hover{
         transform: scale(1.02);
 
+      }
+      a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
       }
 
       
@@ -64,6 +69,10 @@ $primary-text-color: #7e54de;
         background-color: $primary-text-color;
         border: 2px solid $primary-text-color;
         border-radius: 5px;
+        position:absolute;
+        bottom:15px;
+       
+        
 
         transition: 0.2s ease-out;
         
@@ -71,13 +80,6 @@ $primary-text-color: #7e54de;
         padding: 0.6rem;
         width: 100px;
         height:40px;
-       
-
-        position:absolute;
-        z-index: 2;
-
-        bottom: 0.7rem;
-
         pointer-events: none;
       }
 
@@ -87,10 +89,11 @@ $primary-text-color: #7e54de;
         top: 5%;
         margin: 5px;
         line-height: 20px;
-        position:absolute;
-        z-index: 2;
         pointer-events: none;
-        color:$primary-text-color;
+        color:#e1e1e6;
+        position:absolute;
+
+     
       }
 
       img{
@@ -98,14 +101,11 @@ $primary-text-color: #7e54de;
         height:100%;
         align-self: center;
         border-radius: 5px;
-
-        z-index: 3;
-
-        transition: 0.11s ease-out;
+        transition: 0.2s ease-out;
+        z-index: 2;
 
         &:hover{
-          opacity: 0.1;
-          z-index: 2;
+          opacity: 0.05;
         }
       }
     }
