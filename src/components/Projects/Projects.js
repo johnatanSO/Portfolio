@@ -52,7 +52,7 @@ function Projects() {
         </li>
 
         <li className="schoolSystem">
-          <a href="/#" target="_blank" rel="nooper noreferrer">
+          <a href="https://johnatanso.github.io/Sistema-Escolar/" target="_blank" rel="nooper noreferrer">
 
             <img alt="" src="/assets/images/schoolPrint.png" />
             <p>
@@ -66,7 +66,7 @@ function Projects() {
         </li>
 
         <li className="memoryGame">
-        <a href="/#" target="_blank" rel="nooper noreferrer">
+        <a href="https://johnatanso.github.io/JOGO-DA-MEMORIA/" target="_blank" rel="nooper noreferrer">
 
           <img alt="" src="/assets/images/memoryPrint.png" />
           <p>
@@ -79,7 +79,7 @@ function Projects() {
         </li>
 
         <li className="jogoDaVelha">
-        <a href="/#" target="_blank" rel="nooper noreferrer">
+        <a href="https://johnatanso.github.io/JOGO-DA-VELHA/" target="_blank" rel="nooper noreferrer">
           <img alt="" src="/assets/images/jogoDaVelhaPrint.png" />
           <p>
             Um clássico jogo da velha para que você possa jogar com algum amigo
@@ -91,7 +91,7 @@ function Projects() {
         </li>
 
         <li className="musicPlayer">
-        <a href="/#" target="_blank" rel="nooper noreferrer">
+        <a href="https://johnatanso.github.io/music-player/" target="_blank" rel="nooper noreferrer">
           <img alt="" src="/assets/images/playerPrint.png" />
           <p>
             Um player de música para você ouvir as suas músicas favoritas
