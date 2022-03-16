@@ -10,6 +10,7 @@ $primary-text-color: #7e54de;
   .headerProjects{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   h2{
     font-size: 40px;
@@ -24,9 +25,11 @@ $primary-text-color: #7e54de;
     }
   }
   .projectsImage{
-    width: 400px;
-    display: flex;
-    align-items: center;
+    img{
+      width:400px;
+      mix-blend-mode: multiply;
+
+    }  
   }
 
   .gridProjects{

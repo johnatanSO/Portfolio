@@ -16,7 +16,7 @@ function Projects() {
           </p>
         </div>
         <div className="projectsImage">
-          <img alt="Imagem de projetos" src="/assets/images/13.eps" />
+          <img alt="Imagem de projetos" src="/assets/images/13_generated.jpg" />
         </div>
       </div>
 

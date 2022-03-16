@@ -17,6 +17,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .projectsContent h2 {
@@ -34,14 +37,9 @@
   font-weight: 500;
 }
 
-.projectsContent .projectsImage {
+.projectsContent .projectsImage img {
   width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  mix-blend-mode: multiply;
 }
 
 .projectsContent .gridProjects {
