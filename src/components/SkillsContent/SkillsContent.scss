@@ -1,5 +1,6 @@
 $primary-text-color: #7e54de;
-.skillsContent{
+
+.skillsContent {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -9,53 +10,54 @@ $primary-text-color: #7e54de;
   background-color: #1f1f1f;
   animation: fadeRight 0.5s;
 
-  h2{
+  h2 {
     font-size: 40px;
     margin-bottom: 5px;
     color: $primary-text-color;
   }
-  .skillsText{
+
+  .skillsText {
     width: 45%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
   }
-  .skillsImageGrid{
 
+  .skillsImageGrid {
     width: 45%;
     display: flex;
     justify-content: center;
+
     flex-wrap: wrap;
 
-
-    li{
-
-      padding:10px;
+    li {
+      padding: 10px;
       list-style-type: none;
-      display:flex;
+      display: flex;
       align-items: center;
-      justify-content:center;
-      transition:0.2s;
-      &:hover{
-        transform: scale(1.08)
+      justify-content: center;
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.08);
       }
     }
   }
 }
 
-p{
+p {
   line-height: 25px;
   font-weight: 400;
-  font-size:1rem;
+  font-size: 1rem;
 }
 
-
 @keyframes fadeRight {
-  0%{
+  0% {
     transform: translateX(-10%);
     opacity: 0;
   }
-  100%{
+
+  100% {
     transform: translateX(0%);
     opacity: 1;
   }
