@@ -34,6 +34,9 @@
           justify-content: space-between;
   -ms-flex-item-align: initial;
       align-self: initial;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100vw;
   padding: 20px 60px;
 }
@@ -45,12 +48,13 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 25%;
+  width: 20%;
+  margin-top: 5px;
 }
 
 .headerContent .header .socialMedia li {
   margin: 0px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .headerContent .header .socialMedia li:hover {

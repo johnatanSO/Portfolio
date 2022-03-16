@@ -13,7 +13,7 @@ function Header(){
           alignItems: 'center'
         }}>
           <h1>{"<Johnatan />"}</h1>
-          <h3 style={{ fontWeight: '300', fontSize: '0.8rem', letterSpacing: '4px'}}>Web Developer</h3>
+          <h3 style={{width:"100%", textAlign: 'center', fontWeight: '300', fontSize: '0.8rem', letterSpacing: '4px'}}>Web Developer</h3>
           <ul className="socialMedia">
             <a className="link-social-media" target="_blank" rel="nooper noreferrer" href="https://github.com/johnatanSO/"><li className="item-social-media"><FontAwesomeIcon icon={faGithub} /></li></a>
             <a className="link-social-media" target="_blank" rel="nooper noreferrer" href="https://www.linkedin.com/in/johnatan-santos/"><li className="item-social-media"><FontAwesomeIcon icon={faLinkedin} /></li></a>
