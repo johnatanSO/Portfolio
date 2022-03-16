@@ -8,6 +8,8 @@
           justify-content: space-between;
   padding: 60px 60px;
   background-color: #1f1f1f;
+  -webkit-animation: fadeRight 0.5s;
+          animation: fadeRight 0.5s;
 }
 
 .skillsContent h2 {
@@ -67,5 +69,31 @@ p {
   line-height: 25px;
   font-weight: 400;
   font-size: 1rem;
+}
+
+@-webkit-keyframes fadeRight {
+  0% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  0% {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=SkillsContent.css.map */

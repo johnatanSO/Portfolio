@@ -1,5 +1,7 @@
 import React from 'react'
 import './Header.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {fab, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 function Header(){
   return(
@@ -12,6 +14,10 @@ function Header(){
         }}>
           <h1>{"<Johnatan />"}</h1>
           <h3 style={{ fontWeight: '300', fontSize: '0.8rem', letterSpacing: '4px'}}>Web Developer</h3>
+          <ul className="socialMedia">
+            <li><FontAwesomeIcon className="gitIcon" icon={faGithub} /></li>
+            <li><FontAwesomeIcon className= "linkIcon" icon={faLinkedin} /></li>
+          </ul>
         </div> 
         
         <nav>

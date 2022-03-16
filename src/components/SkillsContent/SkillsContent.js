@@ -6,7 +6,7 @@ function SkillsContent(){
     <section className="skillsContent">
         <div className="skillsText">
           <h2>Skills e experiência</h2>
-          <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web à pelo menos um ano. Algumas das tecnologias e skills técnicas que venho estudando e aplicando durante esse tempo são: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT e Firebase. E no momento, tenho começado a adentrar no mundo de NodeJS e React Native para expandir meus conhecimentos cada vez mais. </p>
+          <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web à pelo menos um ano, buscando estar evoluindo constantemente e sempre estar antenado nas tecnologias mais atuais do mercado para aperfeiçoar meus conhecimentos da melhor maneira possível. Nesse tempo de estudo, venho construindo projetos e aplicando algumas das tecnologias, como: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT e Firebase.</p>
         </div>
         <ul className="skillsImageGrid">
 

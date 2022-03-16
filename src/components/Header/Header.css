@@ -24,6 +24,8 @@
 }
 
 .headerContent .header {
+  -webkit-animation: appear 1s;
+          animation: appear 1s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,10 +38,26 @@
   padding: 20px 60px;
 }
 
+.headerContent .header .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+}
+
+.headerContent .header .socialMedia li {
+  margin: 0px;
+}
+
 .headerContent .menuList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-animation: appear 1s;
+          animation: appear 1s;
 }
 
 .headerContent nav {
@@ -78,6 +96,8 @@
 }
 
 .headerContent .welcomeContent {
+  -webkit-animation: appear 1s;
+          animation: appear 1s;
   width: 550px;
   height: 200px;
   display: -webkit-box;
@@ -97,10 +117,32 @@
 
 .headerContent .welcomeContent h3 {
   color: #7e54de;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .headerContent .welcomeContent b {
   color: #7e54de;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=Header.css.map */

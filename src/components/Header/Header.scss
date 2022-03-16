@@ -16,14 +16,27 @@ $primary-text-color: #7e54de;
   
 
   .header{
+    animation: appear 1s;
     display: flex;
     justify-content:space-between;
     align-self: initial;
     width: 100vw;
     padding: 20px 60px;
+
+    .socialMedia{
+      display:flex;
+
+      justify-content:space-between;
+      width:20%;
+
+      li{
+        margin: 0px;
+      }
+    }
   }
   .menuList{
     display: flex;
+    animation: appear 1s;
   }
   
   nav{
@@ -51,7 +64,8 @@ $primary-text-color: #7e54de;
     }
   }
 
-  .welcomeContent{    
+  .welcomeContent{   
+    animation: appear 1s; 
     width:550px;
     height:200px;
     display: flex;
@@ -63,10 +77,21 @@ $primary-text-color: #7e54de;
     }
     h3{
       color:$primary-text-color;
-      margin-top:60px;
+      margin-top:40px;
     }
     b{
       color:$primary-text-color;
     }
+  }
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+    
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1)
   }
 }
