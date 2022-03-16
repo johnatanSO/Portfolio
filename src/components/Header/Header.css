@@ -45,11 +45,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 20%;
+  width: 25%;
 }
 
 .headerContent .header .socialMedia li {
   margin: 0px;
+  font-size: 20px;
+}
+
+.headerContent .header .socialMedia li:hover {
+  color: #7e54de;
 }
 
 .headerContent .menuList {
@@ -144,5 +149,14 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+}
+
+.link-social-media .item-social-media path {
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.link-social-media:hover .item-social-media path {
+  fill: #7e54de;
 }
 /*# sourceMappingURL=Header.css.map */

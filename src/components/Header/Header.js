@@ -15,8 +15,8 @@ function Header(){
           <h1>{"<Johnatan />"}</h1>
           <h3 style={{ fontWeight: '300', fontSize: '0.8rem', letterSpacing: '4px'}}>Web Developer</h3>
           <ul className="socialMedia">
-            <li><FontAwesomeIcon className="gitIcon" icon={faGithub} /></li>
-            <li><FontAwesomeIcon className= "linkIcon" icon={faLinkedin} /></li>
+            <a className="link-social-media" href="#"><li className="item-social-media"><FontAwesomeIcon icon={faGithub} /></li></a>
+            <a className="link-social-media" href="#"><li className="item-social-media"><FontAwesomeIcon icon={faLinkedin} /></li></a>
           </ul>
         </div> 
         
