@@ -4,13 +4,13 @@ import "./SkillsContent.css"
 function SkillsContent(){
   return(
     <section className="skillsContent">
-        <div className="skillsText">
+        <div data-aos="fade-right" className="skillsText">
           <h2>Skills e experiência</h2>
           <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web à pelo menos um ano, buscando estar evoluindo constantemente e sempre estar antenado nas tecnologias mais atuais do mercado para aperfeiçoar meus conhecimentos da melhor maneira possível. </p>
           <br/>
           <p>Nesse tempo de estudo, venho construindo projetos e aplicando algumas das tecnologias, como: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT e Firebase.</p>
         </div>
-        <ul className="skillsImageGrid">
+        <ul data-aos="fade-right" className="skillsImageGrid">
 
           <li className="skill1"><img align="center" alt="John-HTML"  width="70"                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/></li>
 

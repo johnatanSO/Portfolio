@@ -3,24 +3,23 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projectsContent">
-      <div className="headerProjects">
-        <div className="projectsText">
+    <section id="projectsContent" className="projectsContent">
+      <div data-aos="fade-right" className="headerProjects">
+        <div  className="projectsText">
           <h2>Projetos</h2>
           <p>
             Abaixo estão alguns dos meus projetos que fiz usando os
             conhecimentos adquiridos durante esse tempo. Todos eles estão
-            disponíveis no meu{" "}
-            <a href="https://github.com/johnatanSO">Github</a> em seus
+            disponíveis no meu <a href="https://github.com/johnatanSO">Github</a> em seus
             respectivos repositórios. Para visitar, é só clicar e aproveitar.
           </p>
         </div>
         <div className="projectsImage">
-          <img alt="Imagem de projetos" src="/assets/images/13_generated.jpg" />
+          <img alt="Imagem de projetos" src="https://cdni.iconscout.com/illustration/premium/thumb/coding-project-1884980-1597918.png" />
         </div>
       </div>
 
-      <ul className="gridProjects">
+      <ul data-aos="fade-left"  className="gridProjects">
         <li className="todo">
           <a
             href="https://to-do-list-react-bice.vercel.app/"

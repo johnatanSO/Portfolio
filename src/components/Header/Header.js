@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {fab, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Header(){
   return(
@@ -23,8 +24,8 @@ function Header(){
         <nav>
           <ul className="menuList">
             <li>Sobre</li>
-            <li>Projetos</li>
-            <li>Contato</li>
+            <Link duration={500} smooth={true} to="projectsContent"><li>Projetos</li></Link>
+            <Link duration={500} smooth={true} to="contactContent"><li>Contato</li></Link>
           </ul>
         </nav>
       </div>

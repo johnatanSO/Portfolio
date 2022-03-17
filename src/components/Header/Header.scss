@@ -1,4 +1,7 @@
-$primary-text-color: #7e54de;
+$primary-text-color: #ee3535;
+html{
+  scroll-behavior: smooth;
+}
 .headerContent{
   width: 100vw;
   height: 70vh;
@@ -26,12 +29,10 @@ $primary-text-color: #7e54de;
 
     .socialMedia{
       display:flex;
-
       justify-content:space-between;
       width:20%;
       margin-top: 5px;
-
-
+      
       li{
         margin: 0px;
         font-size: 15px;

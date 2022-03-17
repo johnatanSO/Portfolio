@@ -1,6 +1,7 @@
-$primary-text-color: #7e54de;
+$primary-text-color: #ee3535;
 
 .skillsContent {
+  width: 100% !important;
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -8,7 +9,6 @@ $primary-text-color: #7e54de;
   padding: 60px 60px;
 
   background-color: #1f1f1f;
-  animation: fadeRight 0.5s;
 
   h2 {
     font-size: 40px;
@@ -26,8 +26,6 @@ $primary-text-color: #7e54de;
   .skillsImageGrid {
     width: 45%;
     display: flex;
-    justify-content: center;
-
     flex-wrap: wrap;
 
     li {
@@ -49,16 +47,4 @@ p {
   line-height: 25px;
   font-weight: 400;
   font-size: 1rem;
-}
-
-@keyframes fadeRight {
-  0% {
-    transform: translateX(-10%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
 }

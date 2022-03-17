@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .projectsContent {
   padding: 60px 60px;
   background-color: #1f1f1f;
@@ -25,21 +29,44 @@
 .projectsContent h2 {
   font-size: 40px;
   margin-bottom: 5px;
-  color: #7e54de;
+  color: #ee3535;
 }
 
 .projectsContent .projectsText {
-  width: 400px;
+  width: 50%;
 }
 
 .projectsContent .projectsText a {
-  color: #7e54de;
+  color: #ee3535;
   font-weight: 500;
 }
 
+.projectsContent .projectsImage {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0.3;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
 .projectsContent .projectsImage img {
-  width: 400px;
-  mix-blend-mode: multiply;
+  width: 70%;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  -webkit-filter: drop-shadow(2px 2px 7px black);
+          filter: drop-shadow(2px 2px 7px black);
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(black), to(transparent));
+  -webkit-mask-image: linear-gradient(to right, transparent, black, transparent);
+          mask-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(black), to(transparent));
+          mask-image: linear-gradient(to right, transparent, black, transparent);
 }
 
 .projectsContent .gridProjects {
@@ -49,9 +76,6 @@
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 30px;
 }
 
@@ -66,6 +90,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin-top: 25px;
+  margin-right: 25px;
   width: 280px;
   height: 180px;
   list-style-type: none;
@@ -97,8 +122,8 @@
 }
 
 .projectsContent .gridProjects li .visitButton {
-  background-color: #7e54de;
-  border: 2px solid #7e54de;
+  background-color: #ee3535;
+  border: 2px solid #ee3535;
   border-radius: 5px;
   position: absolute;
   bottom: 15px;

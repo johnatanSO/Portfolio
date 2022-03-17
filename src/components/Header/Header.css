@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .headerContent {
   width: 100vw;
   height: 70vh;
@@ -58,7 +62,7 @@
 }
 
 .headerContent .header .socialMedia li:hover {
-  color: #7e54de;
+  color: #ee3535;
 }
 
 .headerContent .menuList {
@@ -88,7 +92,7 @@
 }
 
 .headerContent li:hover {
-  color: #7e54de;
+  color: #ee3535;
 }
 
 .headerContent h1 {
@@ -96,7 +100,7 @@
   cursor: pointer;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
-  color: #7e54de;
+  color: #ee3535;
 }
 
 .headerContent h1:hover {
@@ -125,12 +129,12 @@
 }
 
 .headerContent .welcomeContent h3 {
-  color: #7e54de;
+  color: #ee3535;
   margin-top: 40px;
 }
 
 .headerContent .welcomeContent b {
-  color: #7e54de;
+  color: #ee3535;
 }
 
 @-webkit-keyframes appear {
@@ -161,6 +165,6 @@
 }
 
 .link-social-media:hover .item-social-media path {
-  fill: #7e54de;
+  fill: #ee3535;
 }
 /*# sourceMappingURL=Header.css.map */

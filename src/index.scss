@@ -1,5 +1,8 @@
 $bg-color:#151515;
-$primary-text-color: #7e54de;
+$primary-text-color: #ee3535;
+a{
+  text-decoration: none;
+}
 *{
   padding: 0;
   margin: 0;
@@ -11,6 +14,7 @@ $primary-text-color: #7e54de;
   background-color:$bg-color;
   overflow-x: hidden;
   
+    scroll-behavior: smooth;
 }
 html{
   scroll-behavior: smooth;

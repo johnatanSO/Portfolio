@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +14,7 @@
 :root {
   background-color: #151515;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -26,7 +31,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #7e54de;
+  background-color: #ee3535;
   border-radius: 20px;
   border: solid 2px #252525;
 }

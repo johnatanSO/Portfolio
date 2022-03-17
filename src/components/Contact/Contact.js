@@ -3,12 +3,12 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <section className="contactContent">
+    <section  className="contactContent">
 
       <div className="headerProjects">
         <div className="contactText">
           <h2>Contatos</h2>
-          <p>Ficou alguma dúvida curiosidade? Entre em contato através de alguma das seguintes redes, e estarei pronto para te atender.</p>
+          <p>Ficou alguma dúvida ou curiosidade? Entre em contato através de alguma das seguintes redes, e estarei pronto para te atender.</p>
           
         </div>
       </div>

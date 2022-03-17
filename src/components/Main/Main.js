@@ -3,10 +3,16 @@ import "./Main.css"
 import SkillsContent from '../SkillsContent/SkillsContent'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 export default function Main() {
+
+  useEffect(() =>{
+    AOS.init({duration: 800})
+  },[])
   
   return (
     <main className="mainContent">
