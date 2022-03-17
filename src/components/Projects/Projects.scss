@@ -50,18 +50,17 @@ html{
 
   .gridProjects {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     margin-top: 30px;
+    justify-content:center;
 
     li {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 25px;
-      margin-right: 25px;
-      width: 280px;
-      height: 180px;
+      margin:10px 10px;
+      width: 270px;
+      height: 170px;
       list-style-type: none;
       box-shadow: 3px 3px 7px rgb(16, 16, 16);
       border-radius: 5px;

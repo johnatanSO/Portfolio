@@ -1,5 +1,6 @@
 .contactContent {
   padding: 60px 60px;
+  width: 100% !important;
   margin-top: 20px;
   background-color: #1f1f1f;
   display: -webkit-box;
