@@ -49,6 +49,21 @@ function Projects() {
             <button className="visitButton">Visitar</button>
           </a>
         </li>
+    
+      <li className="pokedexAPI">
+          <a
+            href="https://pokedex-api-virid.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img alt="" src="/assets/images/pokePrint.png" />
+            <p>
+              Esse é um projeto de uma pokédex construído
+              com ReactJS e usando a API RESTful pokéAPI, que lista todos os Pokemons existentes e seus atributos.
+            </p>
+            <button className="visitButton">Visitar</button>
+          </a>
+        </li>
 
         <li className="schoolSystem">
           <a href="https://johnatanso.github.io/Sistema-Escolar/" target="_blank" rel="nooper noreferrer">
