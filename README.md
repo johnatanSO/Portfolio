@@ -1,4 +1,4 @@
-<h1 align="center"> <img width="40px" src="https://cdn-icons-png.flaticon.com/512/252/252336.png"/> Meu portifólio </h1>
+<h1 align="center"> <img width="40px" src="https://cdn-icons-png.flaticon.com/512/252/252336.png"/> Meu portfólio </h1>
 
 <h3> 💻 Sobre o projeto</h3>
 
