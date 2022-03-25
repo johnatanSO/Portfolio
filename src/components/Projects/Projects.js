@@ -28,7 +28,7 @@ function Projects() {
           >
             <img alt="" src="/assets/images/todoPrint.png" />
             <p>
-              Esse é um pojeto de uma to-do list para que você consiga organizar
+              Esse é um projeto de uma to-do list para que você consiga organizar
               suas tarefas da maneira mais prática possível.
             </p>
             <button className="visitButton">Visitar</button>

@@ -53,6 +53,14 @@ html{
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content:center;
+    .pokedexAPI{
+      img{
+        height: 170px;
+        background-color: red;
+        object-fit: cover;
+      }
+      
+    }
 
     li {
       display: flex;
@@ -106,14 +114,16 @@ html{
         color: #e1e1e6;
         position: absolute;
       }
+      
 
       img {
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
         align-self: center;
         border-radius: 5px;
         transition: 0.2s ease-out;
         z-index: 2;
+        object-fit: cover;
 
         &:hover {
           opacity: 0.05;
@@ -122,3 +132,4 @@ html{
     }
   }
 }
+
