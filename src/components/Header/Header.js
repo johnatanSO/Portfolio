@@ -24,6 +24,7 @@ function Header(){
         <nav>
           <ul className="menuList">
             <li>Sobre</li>
+            <Link duration={500} smooth={true} to="skillsContent"><li>Skills</li></Link>
             <Link duration={500} smooth={true} to="projectsContent"><li>Projetos</li></Link>
             <Link duration={500} smooth={true} to="contactContent"><li>Contato</li></Link>
           </ul>
@@ -32,8 +33,8 @@ function Header(){
 
       <div className="welcomeContent">
         <h2>Olá, seja bem vindo!</h2>
-        <p><b>Meu nome é Johantan,</b> sou um desenvolvedor web e esse é o meu portfólio mostrando alguns projetos e contando um pouco sobre minha experiência como desenvolvedor.</p>
-        <h3>Conheça um pouco mais abaixo</h3>
+        <p><b>Meu nome é Johantan,</b> sou um estudante de Análise e Desenvolvimento de Sistemas e um desenvolvedor web. Esse é o meu portfólio mostrando alguns projetos e contando um pouco sobre minha experiência como desenvolvedor.</p>
+        <h3>Conheça um mais abaixo</h3>
       </div>
     </div>
   )

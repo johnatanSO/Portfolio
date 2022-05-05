@@ -42,8 +42,8 @@
   width: auto;
   height: 45px;
   list-style-type: none;
-  -webkit-box-shadow: 3px 3px 7px #101010;
-          box-shadow: 3px 3px 7px #101010;
+  -webkit-box-shadow: 1px 1px 3px #101010;
+          box-shadow: 1px 1px 3px #101010;
   background-color: #2b2b2b;
   border-radius: 5px;
   padding: 10px;

@@ -6,9 +6,9 @@ function SkillsContent(){
     <section className="skillsContent">
         <div data-aos="fade-right" className="skillsText">
           <h2>Skills e experiência</h2>
-          <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web à pelo menos um ano, buscando estar evoluindo constantemente e sempre estar antenado nas tecnologias mais atuais do mercado para aperfeiçoar meus conhecimentos da melhor maneira possível. </p>
+          <p>Um apaixonado por tecnologia, venho estudando e me aprofundado na área de desenvolvimento web há pouco mais de um ano. Buscando estar sempre em constante evolução, adoro novos conhecimentos e desafios para me aperfeiçoar da melhor maneira possível. </p>
           <br/>
-          <p>Nesse tempo de estudo, venho construindo projetos e aplicando algumas das tecnologias, como: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT e Firebase.</p>
+          <p>Nesse tempo de estudo, venho construindo projetos e aplicando algumas das tecnologias, como: HTML, CSS, SASS, Javascript, ReactJS, Jquery, GIT, Firebase e integração com APIs.</p>
         </div>
         <ul data-aos="fade-right" className="skillsImageGrid">
 
