@@ -1,5 +1,7 @@
 import React from "react";
-import "./Projects.css";
+import "./Projects.scss";
+import {GithubLogo, RocketLaunch} from "phosphor-react"
+import {data} from "../../services/data";
 
 function Projects() {
   return (
@@ -20,102 +22,25 @@ function Projects() {
       </div>
 
       <ul data-aos="fade-left"  className="gridProjects">
-        <li className="todo">
-          <a
-            href="https://to-do-list-react-bice.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img alt="" src="/assets/images/todoPrint.png" />
-            <p>
-              Esse é um projeto de uma to-do list para que você consiga organizar
-              suas tarefas da maneira mais prática possível.
-            </p>
-            <button className="visitButton">Visitar</button>
-          </a>
-        </li>
 
-        <li className="apiFilms">
-          <a
-            href="https://api-films.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img alt="" src="/assets/images/moviesPrint.png" />
-            <p>
-              Esse é um projeto de uma biblioteca de filmes e séries construído
-              com ReactJS e usando a API RESTful OMdb.
-            </p>
-            <button className="visitButton">Visitar</button>
-          </a>
-        </li>
-    
-      <li className="pokedexAPI">
-          <a
-            href="https://pokedex-api-virid.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img alt="" src="/assets/images/pokePrint.png" />
-            <p>
-              Esse é um projeto de uma pokédex construído
-              com ReactJS e usando a API RESTful pokéAPI, que lista todos os Pokemons existentes e seus atributos.
-            </p>
-            <button className="visitButton">Visitar</button>
-          </a>
-        </li>
+      {data.projects.map((project) => {
+          return (
+            <li className={project.title}>
+                <p>{project.description}</p>
+                <img src={'../../../assets/images/'+project.imageLink} alt="" />
+             
+              <div className="buttons-container">
+                <a href={project.deployLink} target="_blank" rel="nooper noreferrer">
+                  <button className="visitButton"><RocketLaunch className="iconButton" size={18} />Visitar</button>
+                </a>
 
-        <li className="schoolSystem">
-          <a href="https://johnatanso.github.io/Sistema-Escolar/" target="_blank" rel="nooper noreferrer">
-
-            <img alt="" src="/assets/images/schoolPrint.png" />
-            <p>
-              Esse é um sistema escolar feito para controlar e gerenciar dados de
-              alunos como: notas, faltas e advertências. Construído com o banco de
-              dados Firebase.{" "}
-            </p>
-            <button className="visitButton">Visitar</button>
-
-          </a>
-        </li>
-
-        <li className="memoryGame">
-        <a href="https://johnatanso.github.io/JOGO-DA-MEMORIA/" target="_blank" rel="nooper noreferrer">
-
-          <img alt="" src="/assets/images/memoryPrint.png" />
-          <p>
-            Um jogo da memória simples para que você possa se distraír um pouco
-            de forma rápida. Construído com HTML, CSS e Javascript puro.
-          </p>
-          <button className="visitButton">Visitar</button>
-
-        </a>
-        </li>
-
-        <li className="jogoDaVelha">
-        <a href="https://johnatanso.github.io/JOGO-DA-VELHA/" target="_blank" rel="nooper noreferrer">
-          <img alt="" src="/assets/images/jogoDaVelhaPrint.png" />
-          <p>
-            Um clássico jogo da velha para que você possa jogar com algum amigo
-            e se divertir. Construído com HTML, CSS e Javascript puro.{" "}
-          </p>
-          <button className="visitButton">Visitar</button>
-
-        </a>
-        </li>
-
-        <li className="musicPlayer">
-        <a href="https://johnatanso.github.io/music-player/" target="_blank" rel="nooper noreferrer">
-          <img alt="" src="/assets/images/playerPrint.png" />
-          <p>
-            Um player de música para você ouvir as suas músicas favoritas
-            enquanto faz qualquer coisa durante o dia. Construído com HTML, CSS
-            e Javascript puro.
-          </p>
-          <button className="visitButton">Visitar</button>
-
-        </a>
-        </li>
+                <a href={'https://johnatanso.github.io/'+project.deployLink} target="_blank" rel="nooper noreferrer">
+                  <button className="visitButton"> <GithubLogo className="iconButton" size={18} />Github</button>
+                </a>
+              </div>
+            </li>
+          )
+        })}
       </ul>
     </section>
   );

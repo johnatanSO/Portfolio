@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import "./Main.css"
+import "./Main.scss"
 import SkillsContent from '../SkillsContent/SkillsContent'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'

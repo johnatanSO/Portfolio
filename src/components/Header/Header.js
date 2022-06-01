@@ -1,8 +1,8 @@
 import React from 'react'
-import './Header.css'
+import './Header.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Header(){
   return(
