@@ -1,0 +1,146 @@
+@import '../../../../styles/colors.scss';
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+
+  .headerProjects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .projectsText {
+      max-width: 45%;
+      text-align: right;
+
+      a{
+        color: $primary-text-color;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover{
+          filter: brightness(.8);
+          transition: filter .2s;
+        }
+      }
+
+      h2{
+        font-size: 40px;
+        font-size: 2.6rem;
+        margin-bottom: 15px;
+        color: $primary-text-color;
+      }
+    }
+  }
+
+  .projectsImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+
+    filter: grayscale(1);
+
+    img {
+      filter: brightness(0.9);
+      filter: drop-shadow(2px 2px 7px black);
+      mask-image: linear-gradient(to right, transparent, black, transparent);
+      object-fit: cover;
+      width: 70%;
+    }
+  }
+
+  .gridProjects {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 35px;
+    list-style-type: none;
+    width: 90%;
+
+    .projectCard{
+      height: 300px;
+      background: rgb(41,41,41);
+      border-radius: 15px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.333);
+      padding: 10px;
+      position: relative;
+
+      &:hover{
+        .backgroundProjectImage{
+          opacity: 0.5;
+          filter: brightness(0.3);
+        }
+        p, .buttonsContainer{
+          display: flex;
+        }
+      }
+      
+      .backgroundProjectImage{
+        transition: filter .2s, opacity .2s;
+        min-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 15px;
+      }
+
+      .buttonsContainer{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        gap: 15px;
+        animation: appear 0.3s;
+
+        button{
+          border: none;
+          border-radius: 7px;
+          padding: 7px 10px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+          font-weight: 400;
+
+          &:hover{
+            filter: brightness(.8);
+            transition: filter .2s;
+          }
+        }
+
+        .visitButton{
+          background: $primary-text-color;
+          color: white;
+        }
+      }
+
+      p{
+        position: absolute;
+        inset: 0;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        text-align:center;
+        display: none;
+        align-items: center;
+        animation: appear 0.3s;
+      }
+    }
+  }
+}
+
+
+
+@keyframes appear {
+  from {
+    opacity: 0
+  }
+  to{
+    opacity: 1
+  }
+}

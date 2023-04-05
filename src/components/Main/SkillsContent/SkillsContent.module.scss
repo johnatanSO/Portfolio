@@ -1,0 +1,44 @@
+@import '../../../../styles/colors.scss';
+
+.skillsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+  padding: 60px;
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: $primary-text-color;
+  }
+
+  .skillsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      line-height: 1.55;
+      font-weight: 400;
+      font-size: 1rem;
+      margin: 10px 0px;
+    }
+  }
+  
+  .skillsImageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+
+    li {
+      list-style-type: none;
+      transition: transform 0.2s;
+      
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  }
+}

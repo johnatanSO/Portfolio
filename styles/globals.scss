@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, input, textarea, button{
+  font-family: "Roboto", sans-serif;
+}
+
+:root{
+  background: #151515;
+  color: #e1e1e6;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;             /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #252525;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ee3535;
+  border-radius: 20px;
+  border: solid 2px #252525
+}
