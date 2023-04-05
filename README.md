@@ -1,38 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> <img width="40px" src="https://cdn-icons-png.flaticon.com/512/252/252336.png"/> Meu portfólio </h1>
 
-## Getting Started
+<h3> 💻 Sobre o projeto</h3>
 
-First, run the development server:
+<p>Esse é uma página feita para mostrar alguns projetos e contar um pouco sobre minha experiência na área de desenvolvimento.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<p>📝 O sistema possui:</p>
+ <li>Área de skills</li>
+ <li>Área de projetos</li>
+ <li>Área de contatos</li>
+ <br>
+ 
+ <h2>🖼 GIF da tela da aplicação funcionando: </h2>
+<img width="80%" src="public/assets/images/pageGIF.gif">
+<br> 
+  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>🚀 Tecnologias utilizadas: </h2>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<div style="display: inline_block">
+  <img align="center" alt="John-HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="John-CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="John-JS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="John-ReactJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="John-SASS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
+</div>
+<br>
+<h2>👷 Como testar? </h2>
+<h3>Entre com o seguinte link: </h3>
+<a target="_blank" href="https://portfolio-one-omega-59.vercel.app/">https://portfolio-one-omega-59.vercel.app/</a>
+<h3>Ou</h3>
+<li> Clone o repositório com: git clone https://github.com/johnatanSO/Portfolio.git
+<li> Entre em uma IDE de sua preferência
+<li> Execute o npm install para instalar as dependências
+<li> Execute o npm start para iniciar o servidor local
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+ 
+<div>
+ <h2>🎓 Autores</h2>
+ <h3>Feito com o 💜 by <a target="_blank" href="https://github.com/johnatanSO" target="_blank">Johnatan Santos</a></h3>
+</div>
