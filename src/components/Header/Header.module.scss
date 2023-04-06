@@ -5,13 +5,13 @@
   background-repeat: no-repeat;
   background-size:cover;
   mask-image: linear-gradient(to top, transparent, black 15%);
+  width: 100vw;
   
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
   
-
   .header{
     animation: appear 1s;
     display: flex;
@@ -107,5 +107,20 @@
   100%{
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@media (max-width: 1100px) {
+  .welcomeContent{
+    max-width: 80% !important;
+    text-align: center;
+  }
+
+  .header{
+    flex-direction: column;
+
+    .menuList{
+      margin-top: 40px;
+    }
   }
 }

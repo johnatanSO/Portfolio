@@ -50,13 +50,31 @@ export function Header() {
         <nav>
           <ul className={style.menuList}>
             <li>Sobre</li>
-            <Link duration={500} smooth={true} to="skillsContent">
+            <Link
+              duration={500}
+              smooth={true}
+              to="skillsContainer"
+              offset={-50}
+              spy={true}
+            >
               <li>Skills</li>
             </Link>
-            <Link duration={500} smooth={true} to="projectsContent">
+            <Link
+              duration={500}
+              smooth={true}
+              to="projectsContainer"
+              offset={-50}
+              spy={true}
+            >
               <li>Projetos</li>
             </Link>
-            <Link duration={500} smooth={true} to="contactContent">
+            <Link
+              duration={500}
+              smooth={true}
+              to="contactContainer"
+              offset={-50}
+              spy={true}
+            >
               <li>Contato</li>
             </Link>
           </ul>
@@ -66,10 +84,18 @@ export function Header() {
       <div className={style.welcomeContent}>
         <h2>Olá, seja bem vindo!</h2>
         <p>
-          <b>Meu nome é Johantan,</b> sou um estudante de Análise e
-          Desenvolvimento de Sistemas e um desenvolvedor web. Esse é o meu
-          portfólio mostrando alguns projetos e contando um pouco sobre minha
-          experiência como desenvolvedor.
+          <b>Meu nome é Johantan,</b> sou um desenvolvedor Full Stack apaixonado
+          por tecnologia com 2 anos de experiência, sendo 1 ano dedicado aos
+          estudos e 1 no mercado de trabalho, participando sempre de projetos
+          desafiadores e desenvolvendo aplicações completas, sempre procurando
+          novos desafios e oportunidades para aprimorar minhas habilidades e
+          desenvolver soluções de alta qualidade.
+        </p>
+        <p style={{ marginTop: '20px' }}>
+          Meu foco é entregar soluções inovadoras, escaláveis e funcionais para
+          as necessidades de meus clientes e esse é o meu portfólio mostrando
+          alguns projetos e contando um pouco sobre minha experiência como
+          desenvolvedor.
         </p>
         <h3>Conheça um pouco mais abaixo</h3>
       </div>
