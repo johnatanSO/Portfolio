@@ -27,7 +27,7 @@
 <br>
 <h2>👷 Como testar? </h2>
 <h3>Entre com o seguinte link: </h3>
-<a target="_blank" href="https://portfolio-one-omega-59.vercel.app/">https://portfolio-one-omega-59.vercel.app/</a>
+<a target="_blank" href="https://portfolio-johnatanso.vercel.app/">https://portfolio-johnatanso.vercel.app/</a>
 <h3>Ou</h3>
 <li> Clone o repositório com: git clone https://github.com/johnatanSO/Portfolio.git
 <li> Entre em uma IDE de sua preferência
