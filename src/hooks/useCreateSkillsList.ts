@@ -13,10 +13,6 @@ export function useCreateSkillsList() {
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg',
     },
     {
-      name: 'BOOTSTRAP',
-      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg',
-    },
-    {
       name: 'JAVASCRIPT',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg',
     },

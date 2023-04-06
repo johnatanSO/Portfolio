@@ -2,11 +2,12 @@ import React from 'react'
 import style from './Projects.module.scss'
 import { GithubLogo, RocketLaunch } from 'phosphor-react'
 import { useCreateProjectsList } from '../../../hooks/useCreateProjectsList'
+import Link from 'next/link'
 
 export function Projects() {
   const projects = useCreateProjectsList()
   return (
-    <section className={style.projectsContainer}>
+    <section id="projectsContainer" className={style.projectsContainer}>
       <div data-aos="fade-left" className={style.headerProjects}>
         <div className={style.projectsImage}>
           <img
@@ -21,7 +22,8 @@ export function Projects() {
             conhecimentos adquiridos durante esse tempo. Todos eles estão
             disponíveis no meu{' '}
             <a href="https://github.com/johnatanSO">Github</a> em seus
-            respectivos repositórios. Para visitar, é só clicar e aproveitar.
+            respectivos repositórios. Para visitar, é só clicar em visitar e
+            conferir.
           </p>
         </div>
       </div>
@@ -39,15 +41,27 @@ export function Projects() {
               <p>{project.description}</p>
 
               <div className={style.buttonsContainer}>
-                <button className={style.visitButton}>
-                  <RocketLaunch className="iconButton" size={18} />
-                  Visitar
-                </button>
+                <Link
+                  target="_blank"
+                  rel="nooper noreferrer"
+                  href={project.deployLink}
+                >
+                  <button className={style.visitButton}>
+                    <RocketLaunch className="iconButton" size={18} />
+                    Visitar
+                  </button>
+                </Link>
 
-                <button className={style.githubButton}>
-                  <GithubLogo className="iconButton" size={18} />
-                  Github
-                </button>
+                <Link
+                  target="_blank"
+                  rel="nooper noreferrer"
+                  href={`https://github.com/johnatanSO${project.githubLink}`}
+                >
+                  <button className={style.githubButton}>
+                    <GithubLogo className="iconButton" size={18} />
+                    Github
+                  </button>
+                </Link>
               </div>
             </li>
           )

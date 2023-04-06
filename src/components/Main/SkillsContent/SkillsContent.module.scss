@@ -42,3 +42,14 @@
     }
   }
 }
+
+@media (max-width: 1100px) {
+  .skillsContainer{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skillsImageGrid{
+    margin-top: 20px;
+  }
+}

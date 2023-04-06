@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Main.module.scss'
+import style from './Main.module.scss'
 import { SkillsContent } from './SkillsContent'
 import { Projects } from './Projects'
 import { Contacts } from './Contacts'
@@ -12,7 +12,7 @@ export function Main() {
   }, [])
 
   return (
-    <main className="mainContent">
+    <main className={style.mainContainer}>
       <SkillsContent />
       <Projects />
       <Contacts />

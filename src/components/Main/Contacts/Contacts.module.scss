@@ -3,6 +3,7 @@
 .contactContainer{
   padding: 50px;
   margin-top: 20px;
+  width: 100vw !important;
   
   background-color: #1f1f1f;
   display: flex;
@@ -22,17 +23,20 @@
     margin-top: 30px;
 
     li{
-      display: flex;
-      align-items: center;
       width: auto;
       list-style-type: none;
       box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.331);
       background-color: #2b2b2b;
       border-radius: 10px;
-      gap: 10px;
-      padding: 10px;
+      padding: 10px 12px;
       transition: filter 0.2s;
       cursor: pointer;
+
+      a{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
 
       &:hover{
         filter: brightness(1.2);

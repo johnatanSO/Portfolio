@@ -6,20 +6,27 @@ import style from './SkillsContent.module.scss'
 export function SkillsContent() {
   const skillsList = useCreateSkillsList()
   return (
-    <section className={style.skillsContainer}>
+    <section id="skillsContainer" className={style.skillsContainer}>
       <div data-aos="fade-right" className={style.skillsText}>
-        <h2>Skills e experiência</h2>
+        <h2>Skills</h2>
         <p>
-          Um apaixonado por tecnologia, venho estudando e me aprofundado na área
-          de desenvolvimento web há dois anos. Buscando estar sempre em
-          constante evolução, adoro novos conhecimentos e desafios para me
-          aperfeiçoar da melhor maneira possível.{' '}
+          Como desenvolvedor Full Stack, tenho habilidades sólidas em diversas
+          tecnologias web, incluindo HTML5, CSS3, SASS, JavaScript (ES6) e
+          Typescript. Além disso, tenho experiência com frameworks como React,
+          Angular e Next, e posso desenvolver aplicações web responsivas e
+          dinâmicas, buscando sempre aplicar as melhores práticas.
         </p>
         <p>
-          Nesse tempo de estudo, venho construindo projetos e aplicando algumas
-          das tecnologias, como: HTML, CSS, SASS, Style-Components, Javascript,
-          Typescript, ReactJS, NodeJS, Express, MongoDB, Jquery, GIT, Firebase,
-          JWT e integraçôes com APIs.
+          Minha experiência em criação e integração de APIs REST me permite
+          construir soluções escaláveis e seguras, utilizando Node e Express.
+          Também tenho conhecimento em banco de dados MongoDB e posso
+          implementar soluções de armazenamento eficientes e bem projetadas.
+        </p>
+        <p>
+          Além disso, tenho experiência em ferramentas e tecnologias importantes
+          como Docker, GIT, Firebase e CI/CD, que me permite desenvolver
+          soluções completas e integradas, desde a fase de desenvolvimento até a
+          implementação.
         </p>
       </div>
       <ul data-aos="fade-right" className={style.skillsImageGrid}>
