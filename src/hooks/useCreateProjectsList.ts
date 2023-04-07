@@ -1,12 +1,29 @@
 export function useCreateProjectsList() {
   return [
     {
-      githubLink: '/vendergas-desafio',
+      githubLink: '/sistema-de-vendas',
       title: 'comerce',
       description:
         'Esse é um sistema para gerenciamento de dados de um comércio, com funcionalidades de cadastro de clientes, empresas, produtos e pedidos.',
-      deployLink: 'vendergas-desafio/',
+      deployLink: '/',
       imageLink: 'tela-de-empresas.png',
+    },
+    {
+      githubLink: '/Sistema-Escolar',
+      title: 'schoolSystem',
+      description:
+        'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos como: notas, faltas e advertências. Construído com o banco de dados Firebase.',
+      deployLink:
+        'https://sistema-escolar-delta.vercel.app/pages/teacher/index.html',
+      imageLink: 'schoolPrint.png',
+    },
+    {
+      githubLink: '/api-films',
+      title: 'apiFilms',
+      description:
+        'Esse é um projeto de uma biblioteca de filmes e séries construído com ReactJS e usando a API RESTful OMdb.',
+      deployLink: 'https://api-films.vercel.app/',
+      imageLink: 'moviesPrint.png',
     },
     {
       githubLink: '/dtmoney',
@@ -25,29 +42,12 @@ export function useCreateProjectsList() {
       imageLink: 'todoPrint.png',
     },
     {
-      githubLink: '/api-films',
-      title: 'apiFilms',
-      description:
-        'Esse é um projeto de uma biblioteca de filmes e séries construído com ReactJS e usando a API RESTful OMdb.',
-      deployLink: 'https://api-films.vercel.app/',
-      imageLink: 'moviesPrint.png',
-    },
-    {
       githubLink: '/pokedexAPI',
       title: 'pokedexAPI',
       description:
         'Esse é um projeto de uma pokédex construído com ReactJS e usando a API RESTful pokéAPI, que lista todos os Pokemons existentes e seus atributos.',
       deployLink: 'https://pokedex-api-virid.vercel.app/',
       imageLink: 'pokePrint.png',
-    },
-    {
-      githubLink: '/Sistema-Escolar',
-      title: 'schoolSystem',
-      description:
-        'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos como: notas, faltas e advertências. Construído com o banco de dados Firebase.',
-      deployLink:
-        'https://sistema-escolar-delta.vercel.app/pages/teacher/index.html',
-      imageLink: 'schoolPrint.png',
     },
     {
       githubLink: '/JOGO-DA-MEMORIA',
