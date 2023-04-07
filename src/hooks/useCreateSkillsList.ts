@@ -27,12 +27,11 @@ export function useCreateSkillsList() {
     {
       name: 'NEXT',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg',
-      color: 'white',
+      colorWhite: true,
     },
     {
       name: 'ANGULAR',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg',
-      color: 'white',
     },
     {
       name: 'NODE',
@@ -41,6 +40,7 @@ export function useCreateSkillsList() {
     {
       name: 'EXPRESS',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
+      colorWhite: true,
     },
     {
       name: 'MONOGODB',

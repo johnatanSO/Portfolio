@@ -66,7 +66,7 @@ export function Header() {
               offset={-50}
               spy={true}
             >
-              <li>Experiência</li>
+              <li>Experiências</li>
             </Link>
             <Link
               duration={500}
@@ -93,18 +93,14 @@ export function Header() {
       <div className={style.welcomeContent}>
         <h2>Olá, seja bem vindo!</h2>
         <p>
-          <b>Meu nome é Johantan,</b> sou um desenvolvedor Full Stack apaixonado
-          por tecnologia com 2 anos de experiência, sendo 1 ano dedicado aos
+          <b>Meu nome é Johnatan,</b> sou um desenvolvedor Full Stack apaixonado
+          por tecnologia, com 2 anos de experiência, sendo 1 ano dedicado aos
           estudos e 1 no mercado de trabalho, participando sempre de projetos
-          desafiadores e desenvolvendo aplicações completas, sempre procurando
-          novos desafios e oportunidades para aprimorar minhas habilidades e
-          desenvolver soluções de alta qualidade.
+          desafiadores e desenvolvendo aplicações completas e de alta qualidade.
         </p>
         <p style={{ marginTop: '20px' }}>
-          Meu foco é entregar soluções inovadoras, escaláveis e funcionais para
-          as necessidades de meus clientes e esse é o meu portfólio mostrando
-          alguns projetos e contando um pouco sobre minha experiência como
-          desenvolvedor.
+          E esse é o meu portfólio mostrando alguns projetos e contando um pouco
+          sobre minha experiência como desenvolvedor.
         </p>
         <h3>Conheça um pouco mais abaixo</h3>
       </div>

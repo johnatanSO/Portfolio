@@ -1,0 +1,73 @@
+@import '../../../../styles/colors.scss';
+
+.experienceContainer {
+  display: flex;
+  gap: 20%;
+  padding: 50px 10%;
+  margin: 50px 0px;
+  
+  .experienceText {
+    text-align: left;
+    max-width: 50%;
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: $primary-text-color;
+    }
+
+    ul{
+      list-style-type: none;
+
+      li{
+        b{
+          color: $primary-text-color;
+        }
+
+        h4{
+          font-weight: 600;
+          font-size: 1.1rem;
+        }
+        span{
+          font-size: 0.950rem;
+        }
+
+        p{
+          margin-top: 15px;
+        }
+
+        &:not(:first-of-type){
+          margin-top: 80px
+        }
+      }
+    }
+  }
+
+  .experienceImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+
+    filter: grayscale(1);
+
+    img {
+      filter: brightness(0.9);
+      filter: drop-shadow(2px 2px 7px black);
+      mask-image: linear-gradient(to right, transparent, black, transparent);
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  
+}
+
+@media (max-width: 1100px) {
+  .experienceText{
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  .experienceImage{
+    display: none !important;
+  }
+}

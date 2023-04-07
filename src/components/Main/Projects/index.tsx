@@ -8,7 +8,7 @@ export function Projects() {
   const projects = useCreateProjectsList()
   return (
     <section id="projectsContainer" className={style.projectsContainer}>
-      <div data-aos="fade-left" className={style.headerProjects}>
+      <div data-aos="fade-right" className={style.headerProjects}>
         <div className={style.projectsImage}>
           <img
             alt="Imagem de projetos"

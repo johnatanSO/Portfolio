@@ -5,6 +5,7 @@ import { Projects } from './Projects'
 import { Contacts } from './Contacts'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Experience } from './Experience'
 
 export function Main() {
   useEffect(() => {
@@ -14,6 +15,7 @@ export function Main() {
   return (
     <main className={style.mainContainer}>
       <SkillsContent />
+      <Experience />
       <Projects />
       <Contacts />
     </main>
