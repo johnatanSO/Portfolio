@@ -62,6 +62,15 @@ export function Header() {
             <Link
               duration={500}
               smooth={true}
+              to="experienceContainer"
+              offset={-50}
+              spy={true}
+            >
+              <li>Experiência</li>
+            </Link>
+            <Link
+              duration={500}
+              smooth={true}
               to="projectsContainer"
               offset={-50}
               spy={true}

@@ -33,6 +33,10 @@
         color: $primary-text-color;
       }
     }
+
+    .observation{
+      color: $primary-text-color;
+    }
   }
 
   .projectsImage {
@@ -75,7 +79,7 @@
           opacity: 0.5;
           filter: brightness(0.3);
         }
-        p, .buttonsContainer{
+        p, .buttonsContainer, span{
           display: flex;
         }
       }
@@ -98,7 +102,7 @@
         gap: 15px;
         animation: appear 0.3s;
 
-        button{
+        .visitButton, .githubButton{
           border: none;
           border-radius: 7px;
           padding: 7px 10px;
@@ -119,6 +123,11 @@
           background: $primary-text-color;
           color: white;
         }
+
+        .githubButton{
+          background: white;
+          color: rgb(48, 48, 48);
+        }
       }
       p{
         position: absolute;
@@ -129,6 +138,19 @@
         text-align:center;
         display: none;
         align-items: center;
+        animation: appear 0.3s;
+      }
+      span{
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+        background-color: rgb(34, 34, 34);
+        border-radius: 7px;
+        text-align: center;
+        display: none;
+        padding: 10px;
         animation: appear 0.3s;
       }
     }

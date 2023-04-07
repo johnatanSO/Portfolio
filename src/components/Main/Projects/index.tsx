@@ -25,6 +25,11 @@ export function Projects() {
             respectivos repositórios. Para visitar, é só clicar em visitar e
             conferir.
           </p>
+          <p className={style.observation}>
+            ( *OBS: Os projetos foram feitos a algum tempo atrás, então no
+            momento, estão passando por um processo de refatoração e melhoria de
+            código )
+          </p>
         </div>
       </div>
 
@@ -37,6 +42,19 @@ export function Projects() {
                 src={'../../../assets/images/' + project.imageLink}
                 alt=""
               />
+              {project?.inRefactoring && (
+                <span style={{ color: 'rgba(255, 35, 35, 0.853)' }}>
+                  {' '}
+                  * Em processo de refatoração *
+                </span>
+              )}
+
+              {project?.toRefactor && (
+                <span style={{ color: 'rgba(35, 116, 255, 0.853)' }}>
+                  {' '}
+                  * A refatorar *
+                </span>
+              )}
 
               <p>{project.description}</p>
 
@@ -45,22 +63,28 @@ export function Projects() {
                   target="_blank"
                   rel="nooper noreferrer"
                   href={project.deployLink}
+                  className={style.visitButton}
+                  style={
+                    project.inRefactoring
+                      ? {
+                          pointerEvents: 'none',
+                          opacity: '0.3',
+                        }
+                      : {}
+                  }
                 >
-                  <button className={style.visitButton}>
-                    <RocketLaunch className="iconButton" size={18} />
-                    Visitar
-                  </button>
+                  <RocketLaunch className="iconButton" size={18} />
+                  Visitar
                 </Link>
 
                 <Link
                   target="_blank"
                   rel="nooper noreferrer"
                   href={`https://github.com/johnatanSO${project.githubLink}`}
+                  className={style.githubButton}
                 >
-                  <button className={style.githubButton}>
-                    <GithubLogo className="iconButton" size={18} />
-                    Github
-                  </button>
+                  <GithubLogo className="iconButton" size={18} />
+                  Github
                 </Link>
               </div>
             </li>

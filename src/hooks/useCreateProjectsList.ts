@@ -7,6 +7,7 @@ export function useCreateProjectsList() {
         'Esse é um sistema para gerenciamento de dados de um comércio, com funcionalidades de cadastro de clientes, empresas, produtos e pedidos.',
       deployLink: '/',
       imageLink: 'tela-de-empresas.png',
+      inRefactoring: true,
     },
     {
       githubLink: '/Sistema-Escolar',
@@ -16,6 +17,7 @@ export function useCreateProjectsList() {
       deployLink:
         'https://sistema-escolar-delta.vercel.app/pages/teacher/index.html',
       imageLink: 'schoolPrint.png',
+      toRefactor: true,
     },
     {
       githubLink: '/api-films',
@@ -24,6 +26,7 @@ export function useCreateProjectsList() {
         'Esse é um projeto de uma biblioteca de filmes e séries construído com ReactJS e usando a API RESTful OMdb.',
       deployLink: 'https://api-films.vercel.app/',
       imageLink: 'moviesPrint.png',
+      inRefactoring: true,
     },
     {
       githubLink: '/dtmoney',
@@ -32,14 +35,16 @@ export function useCreateProjectsList() {
         'Esse é uma aplicação de um sistema para controle financeiro.',
       deployLink: 'dtmoney/',
       imageLink: 'dtmoney.png',
+      toRefactor: true,
     },
     {
-      githubLink: '/todo-list',
+      githubLink: '/To-Do-List-React',
       title: 'todo',
       description:
         'Esse é um projeto de uma to-do list para que você consiga organizar suas tarefas da maneira mais prática possível.',
       deployLink: 'https://to-do-list-react-bice.vercel.app/',
       imageLink: 'todoPrint.png',
+      toRefactor: true,
     },
     {
       githubLink: '/pokedexAPI',
@@ -48,6 +53,7 @@ export function useCreateProjectsList() {
         'Esse é um projeto de uma pokédex construído com ReactJS e usando a API RESTful pokéAPI, que lista todos os Pokemons existentes e seus atributos.',
       deployLink: 'https://pokedex-api-virid.vercel.app/',
       imageLink: 'pokePrint.png',
+      toRefactor: true,
     },
     {
       githubLink: '/JOGO-DA-MEMORIA',
@@ -56,6 +62,7 @@ export function useCreateProjectsList() {
         'Um jogo da memória simples para que você possa se distraír um pouco de forma rápida. Construído com HTML, CSS e Javascript puro.',
       deployLink: 'https://jogo-da-memoria-snowy.vercel.app/',
       imageLink: 'memoryPrint.png',
+      toRefactor: true,
     },
     {
       githubLink: '/JOGO-DA-VELHA',
@@ -64,6 +71,7 @@ export function useCreateProjectsList() {
         'Um clássico jogo da velha para que você possa jogar com algum amigo e se divertir. Construído com HTML, CSS e Javascript puro.',
       deployLink: 'https://johnatanso.github.io/JOGO-DA-VELHA/',
       imageLink: 'jogoDaVelhaPrint.png',
+      toRefactor: true,
     },
     {
       githubLink: '/music-player',
@@ -72,6 +80,7 @@ export function useCreateProjectsList() {
         'Um player de música para você ouvir as suas músicas favoritas enquanto faz qualquer coisa durante o dia. Construído com HTML, CSS e Javascript puro.',
       deployLink: 'https://johnatanso.github.io/music-player/',
       imageLink: 'playerPrint.png',
+      toRefactor: true,
     },
   ]
 }
