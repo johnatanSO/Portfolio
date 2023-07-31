@@ -6,6 +6,7 @@
 
 <p>📝 O sistema possui:</p>
  <li>Área de skills</li>
+ <li>Área de experiências</li>
  <li>Área de projetos</li>
  <li>Área de contatos</li>
  <br>
@@ -21,7 +22,7 @@
   <img align="center" alt="John-HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="John-CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="John-JS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="John-ReactJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="John-NextJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg">
   <img align="center" alt="John-SASS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
 </div>
 <br>
