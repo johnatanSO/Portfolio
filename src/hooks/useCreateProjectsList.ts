@@ -6,8 +6,7 @@ export function useCreateProjectsList() {
       description:
         'Esse é um sistema ERP para gerenciamento de dados de um comércio, com funcionalidades de login/cadastro de conta, dashboard, cadastro de produtos, vendas, contas a pagar/receber e clientes.',
       deployLink: 'https://sistema-de-vendas-lac.vercel.app/',
-      imageLink: 'tela-de-empresas.png',
-      inRefactoring: false,
+      imageLink: 'sistema-de-vendas.png',
     },
     {
       githubLink: '/Sistema-Escolar',
@@ -17,7 +16,7 @@ export function useCreateProjectsList() {
       deployLink:
         'https://sistema-escolar-delta.vercel.app/pages/teacher/index.html',
       imageLink: 'schoolPrint.png',
-      toRefactor: true,
+      inRefactoring: true,
     },
     {
       githubLink: '/To-Do-List-React',
@@ -26,7 +25,6 @@ export function useCreateProjectsList() {
         'Esse é um projeto de uma to-do list, feita com NextJS e SASS modules, para que você consiga organizar suas tarefas da maneira mais prática possível e otimizar o seu tempo.',
       deployLink: 'https://to-do-list-react-bice.vercel.app/',
       imageLink: 'todoPrint.png',
-      toRefactor: false,
     },
     {
       githubLink: '/api-films',
@@ -35,7 +33,6 @@ export function useCreateProjectsList() {
         'Esse é um projeto de uma biblioteca para busca de filmes e séries construído usando NextJS e a API OMdb.',
       deployLink: 'https://api-films.vercel.app/',
       imageLink: 'moviesPrint.png',
-      inRefactoring: true,
     },
     {
       githubLink: '/JOGO-DA-MEMORIA',
