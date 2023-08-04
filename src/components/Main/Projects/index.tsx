@@ -73,8 +73,10 @@ export function Projects() {
                       : {}
                   }
                 >
-                  <RocketLaunch className="iconButton" size={18} />
-                  Visitar
+                  <>
+                    <RocketLaunch className="iconButton" size={18} />
+                    Visitar
+                  </>
                 </Link>
 
                 <Link
@@ -83,8 +85,10 @@ export function Projects() {
                   href={`https://github.com/johnatanSO${project.githubLink}`}
                   className={style.githubButton}
                 >
-                  <GithubLogo className="iconButton" size={18} />
-                  Github
+                  <>
+                    <GithubLogo className="iconButton" size={18} />
+                    Github
+                  </>
                 </Link>
               </div>
             </li>

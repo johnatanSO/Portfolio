@@ -1,4 +1,4 @@
-import { useCreateSkillsList } from '@/src/hooks/useCreateSkillsList'
+import { useCreateSkillsList } from '../../../hooks/useCreateSkillsList'
 import Image from 'next/image'
 import React from 'react'
 import style from './SkillsContent.module.scss'
@@ -15,7 +15,7 @@ export function SkillsContent() {
                 style={skill.colorWhite ? { filter: 'invert(100%)' } : {}}
                 width={70}
                 height={70}
-                src={skill.src}
+                src={skill?.src}
                 alt="skillIcon"
               />
             </li>
