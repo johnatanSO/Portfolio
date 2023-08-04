@@ -29,7 +29,7 @@ export function useCreateProjectsList() {
       githubLink: '/api-films',
       title: 'apiFilms',
       description:
-        'Esse é um projeto de uma biblioteca para busca de filmes e séries construído usando NextJS e a API OMdb.',
+        'Esse é um projeto de uma biblioteca para busca de filmes e séries construído usando NextJS, SASS no front end e a API OMdb para pesquisa de dados.',
       deployLink: 'https://api-films.vercel.app/',
       imageLink: 'moviesPrint.png',
     },
