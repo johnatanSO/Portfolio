@@ -20,10 +20,9 @@
 
 <div style="display: inline_block">
   <img align="center" alt="John-HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="John-CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="John-JS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="John-NextJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg">
   <img align="center" alt="John-SASS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
+  <img align="center" alt="John-NextJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg">
+  <img align="center" alt="John-TS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
 </div>
 <br>
 <h2>👷 Como testar? </h2>
@@ -39,5 +38,5 @@
  
 <div>
  <h2>🎓 Autores</h2>
- <h3>Feito com o 💜 by <a target="_blank" href="https://github.com/johnatanSO" target="_blank">Johnatan Santos</a></h3>
+ <h3>Feito por <a target="_blank" href="https://github.com/johnatanSO" target="_blank">Johnatan Santos</a></h3>
 </div>
