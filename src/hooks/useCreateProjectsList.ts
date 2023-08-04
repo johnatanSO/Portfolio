@@ -9,12 +9,11 @@ export function useCreateProjectsList() {
       imageLink: 'sistema-de-vendas.png',
     },
     {
-      githubLink: '/Sistema-Escolar',
+      githubLink: '/gestor-escolar',
       title: 'schoolSystem',
       description:
         'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos de uma escola como: notas, faltas e advertências. O sistema é dividido em duas áreas, uma para professores e uma para alunos com permissões diferentes para cada um. Construído com NextJS e SASS modules no front-end e Node e Express no back-end com o banco de dados MongoDB. O sistema possui também uma versão mobile construída com React Native.',
-      deployLink:
-        'https://sistema-escolar-delta.vercel.app/pages/teacher/index.html',
+      deployLink: 'https://gestor-escolar.vercel.app/',
       imageLink: 'schoolPrint.png',
       inRefactoring: true,
     },
