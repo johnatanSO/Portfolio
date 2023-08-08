@@ -13,7 +13,7 @@
     margin-bottom: 20px;
 
     .projectsText {
-      max-width: 85%;
+      max-width: 45%;
       text-align: center;
 
       a{
@@ -135,13 +135,13 @@
       p{
         position: absolute;
         inset: 0;
-        width: 50%;
-        height: 50%;
+        width: 90%;
         margin: auto;
         text-align:center;
         display: none;
         align-items: center;
         animation: appear 0.3s;
+        font-size: 0.875rem;
       }
       span{
         position: absolute;
