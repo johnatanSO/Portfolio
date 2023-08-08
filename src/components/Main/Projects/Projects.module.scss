@@ -1,4 +1,4 @@
-@import '../../../../styles/colors.scss';
+@import "../../../../styles/colors.scss";
 
 .projectsContainer {
   display: flex;
@@ -16,18 +16,18 @@
       max-width: 45%;
       text-align: center;
 
-      a{
+      a {
         color: $primary-text-color;
         text-decoration: none;
         font-weight: 500;
 
-        &:hover{
-          filter: brightness(.8);
-          transition: filter .2s;
+        &:hover {
+          filter: brightness(0.8);
+          transition: filter 0.2s;
         }
       }
 
-      h2{
+      h2 {
         font-size: 40px;
         font-size: 2.6rem;
         margin-bottom: 15px;
@@ -35,7 +35,7 @@
       }
     }
 
-    .observation{
+    .observation {
       color: $primary-text-color;
       margin-top: 10px;
       display: block;
@@ -69,26 +69,24 @@
     list-style-type: none;
     width: 95%;
 
-    .projectCard{
-      background: rgb(41,41,41);
+    .projectCard {
+      background: rgb(41, 41, 41);
       width: 460px;
       border-radius: 15px;
       box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.333);
       padding: 10px;
       position: relative;
 
-      &:hover{
-        .backgroundProjectImage{
-          opacity: 0.5;
-          filter: brightness(0.3);
-        }
-        p, .buttonsContainer, span{
+      &:hover {
+        .descriptionContainer {
           display: flex;
         }
       }
-      
-      .backgroundProjectImage{
-        transition: filter .2s, opacity .2s;
+
+      .backgroundProjectImage {
+        transition:
+          filter 0.2s,
+          opacity 0.2s;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -96,93 +94,94 @@
         border-radius: 15px;
       }
 
-      .buttonsContainer{
+      .descriptionContainer {
+        background: rgb(0 0 0 / 0.5);
         position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: none;
-        gap: 15px;
         animation: appear 0.3s;
 
-        .visitButton, .githubButton{
-          border: none;
-          border-radius: 7px;
-          padding: 7px 10px;
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          gap: 5px;
-          box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
-          font-weight: 500;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        inset: 0;
+        padding: 25px;
+        justify-content: space-between;
 
-          &:hover{
-            filter: brightness(.8);
-            transition: filter .2s;
+        .buttonsContainer {
+          display: flex;
+          gap: 15px;
+
+          .visitButton,
+          .githubButton {
+            border: none;
+            border-radius: 7px;
+            padding: 7px 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+            font-weight: 500;
+            line-height: 1;
+            font-size: 0.875rem;
+
+            &:hover {
+              filter: brightness(0.8);
+              transition: filter 0.2s;
+            }
+          }
+
+          .visitButton {
+            background: $primary-text-color;
+            color: white;
+          }
+
+          .githubButton {
+            background: white;
+            color: rgb(48, 48, 48);
           }
         }
 
-        .visitButton{
-          background: $primary-text-color;
-          color: white;
+        p {
+          margin: auto;
+          text-align: center;
+          align-items: center;
+          font-size: 0.875rem;
         }
 
-        .githubButton{
-          background: white;
-          color: rgb(48, 48, 48);
+        span {
+          font-weight: 600;
+          font-size: 0.875rem;
+          background: rgb(34, 34, 34);
+          border-radius: 7px;
+          text-align: center;
+          padding: 5px;
         }
-      }
-      p{
-        position: absolute;
-        inset: 0;
-        width: 90%;
-        margin: auto;
-        text-align:center;
-        display: none;
-        align-items: center;
-        animation: appear 0.3s;
-        font-size: 0.875rem;
-      }
-      span{
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-weight: 600;
-        background-color: rgb(34, 34, 34);
-        border-radius: 7px;
-        text-align: center;
-        display: none;
-        padding: 10px;
-        animation: appear 0.3s;
       }
     }
   }
 }
 
-
 @keyframes appear {
   from {
-    opacity: 0
+    opacity: 0;
   }
-  to{
-    opacity: 1
+  to {
+    opacity: 1;
   }
 }
 
 @media (max-width: 1100px) {
-  .projectCard{
+  .projectCard {
     width: 100%;
   }
 
-  .headerProjects{
-
-    .projectsText{
+  .headerProjects {
+    .projectsText {
       text-align: center !important;
       max-width: 100% !important;
     }
 
-    .projectsImage{
+    .projectsImage {
       display: none !important;
     }
   }

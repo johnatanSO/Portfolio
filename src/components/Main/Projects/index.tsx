@@ -42,54 +42,54 @@ export function Projects() {
                 src={'../../../assets/images/' + project.imageLink}
                 alt=""
               />
-              {project?.inRefactoring && (
-                <span style={{ color: 'rgba(255, 35, 35, 0.853)' }}>
-                  {' '}
-                  * Em processo de refatoração *
-                </span>
-              )}
+              <div className={style.descriptionContainer}>
+                {project?.inRefactoring && (
+                  <span style={{ color: 'rgba(255, 35, 35, 0.853)' }}>
+                    {' '}
+                    * Em processo de refatoração *
+                  </span>
+                )}
 
-              {project?.toRefactor && (
-                <span style={{ color: 'rgba(35, 116, 255, 0.853)' }}>
-                  {' '}
-                  * A refatorar *
-                </span>
-              )}
+                {project?.toRefactor && (
+                  <span style={{ color: 'rgba(35, 116, 255, 0.853)' }}>
+                    {' '}
+                    * A refatorar *
+                  </span>
+                )}
 
-              <p>{project.description}</p>
+                <p>{project.description}</p>
 
-              <div className={style.buttonsContainer}>
-                <Link
-                  target="_blank"
-                  rel="nooper noreferrer"
-                  href={project.deployLink}
-                  className={style.visitButton}
-                  style={
-                    project.inRefactoring
-                      ? {
-                          pointerEvents: 'none',
-                          opacity: '0.3',
-                        }
-                      : {}
-                  }
-                >
-                  <button type="button">
-                    <RocketLaunch className="iconButton" size={18} />
-                    Visitar
-                  </button>
-                </Link>
+                <div className={style.buttonsContainer}>
+                  <Link
+                    target="_blank"
+                    rel="nooper noreferrer"
+                    href={project.deployLink}
+                    style={
+                      project.inRefactoring
+                        ? {
+                            pointerEvents: 'none',
+                            opacity: '0.3',
+                          }
+                        : {}
+                    }
+                  >
+                    <button className={style.visitButton} type="button">
+                      <RocketLaunch className="iconButton" size={18} />
+                      Visitar
+                    </button>
+                  </Link>
 
-                <Link
-                  target="_blank"
-                  rel="nooper noreferrer"
-                  href={`https://github.com/johnatanSO${project.githubLink}`}
-                  className={style.githubButton}
-                >
-                  <button type="button">
-                    <GithubLogo className="iconButton" size={18} />
-                    Github
-                  </button>
-                </Link>
+                  <Link
+                    target="_blank"
+                    rel="nooper noreferrer"
+                    href={`https://github.com/johnatanSO${project.githubLink}`}
+                  >
+                    <button className={style.githubButton} type="button">
+                      <GithubLogo className="iconButton" size={18} />
+                      Github
+                    </button>
+                  </Link>
+                </div>
               </div>
             </li>
           )
