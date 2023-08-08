@@ -1,33 +1,41 @@
+@import "./colors.scss";
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html, body, input, textarea, button{
+html,
+body,
+input,
+textarea,
+button {
   font-family: "Roboto", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
-  color: white;
+  color: $gray-color-100;
 }
 
-:root{
-  background: #151515;
-  color: #e1e1e6;
+:root {
+  background: $gray-color-600;
+  color: $gray-color-100;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-  width: 12px;             /* width of the entire scrollbar */
+  width: 12px;
 }
+
 body::-webkit-scrollbar-track {
-  background: #252525;
+  background: $gray-color-500;
 }
+
 body::-webkit-scrollbar-thumb {
-  background-color: #ee3535;
+  background: $primary-color;
   border-radius: 20px;
-  border: solid 2px #252525
+  border: solid 2px $gray-color-500;
 }

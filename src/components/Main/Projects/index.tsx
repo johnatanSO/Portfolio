@@ -44,17 +44,14 @@ export function Projects() {
               />
               <div className={style.descriptionContainer}>
                 {project?.inRefactoring && (
-                  <span style={{ color: 'rgba(255, 35, 35, 0.853)' }}>
+                  <span className={style.inRefactoring}>
                     {' '}
                     * Em processo de refatoração *
                   </span>
                 )}
 
                 {project?.toRefactor && (
-                  <span style={{ color: 'rgba(35, 116, 255, 0.853)' }}>
-                    {' '}
-                    * A refatorar *
-                  </span>
+                  <span className={style.toRefactor}> * A refatorar *</span>
                 )}
 
                 <p>{project.description}</p>

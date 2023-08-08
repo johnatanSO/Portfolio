@@ -27,7 +27,7 @@
       align-items: center;
 
       h1{
-        color:$primary-text-color;
+        color:$primary-color;
         cursor: pointer;
         
         &:hover{
@@ -52,7 +52,7 @@
             font-size: 1.2rem;
 
             &:hover{
-              color: $primary-text-color;
+              color: $primary-color;
               transition: color .2s;
             }
           }
@@ -71,7 +71,7 @@
 
         &:hover{
           transition: color 0.2s;
-          color:$primary-text-color;
+          color:$primary-color;
         }
       }
     }
@@ -91,11 +91,11 @@
     }
     
     h3{
-      color:$primary-text-color;
+      color:$primary-color;
       margin-top:40px;
     }
     b{
-      color:$primary-text-color;
+      color:$primary-color;
     }
   }
 }

@@ -17,7 +17,7 @@
       text-align: center;
 
       a {
-        color: $primary-text-color;
+        color: $primary-color;
         text-decoration: none;
         font-weight: 500;
 
@@ -31,12 +31,12 @@
         font-size: 40px;
         font-size: 2.6rem;
         margin-bottom: 15px;
-        color: $primary-text-color;
+        color: $primary-color;
       }
     }
 
     .observation {
-      color: $primary-text-color;
+      color: $primary-color;
       margin-top: 10px;
       display: block;
     }
@@ -70,7 +70,7 @@
     width: 95%;
 
     .projectCard {
-      background: rgb(41, 41, 41);
+      background: $gray-color-500;
       width: 460px;
       border-radius: 15px;
       box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.333);
@@ -131,13 +131,13 @@
           }
 
           .visitButton {
-            background: $primary-text-color;
+            background: $primary-color;
             color: white;
           }
 
           .githubButton {
             background: white;
-            color: rgb(48, 48, 48);
+            color: $gray-color-400;
           }
         }
 
@@ -149,12 +149,21 @@
         }
 
         span {
+          background: $gray-color-500;
+          
           font-weight: 600;
           font-size: 0.875rem;
-          background: rgb(34, 34, 34);
           border-radius: 7px;
           text-align: center;
           padding: 5px;
+          line-height: 1;
+
+          &.inRefactoring{
+            color: $primary-color;
+          }
+          &.toRefactor{
+            color: $primary-color;
+          }
         }
       }
     }
