@@ -15,7 +15,6 @@ export function useCreateProjectsList() {
         'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos de uma escola como: notas, faltas e advertências. O sistema é dividido em duas áreas, uma para professores e uma para alunos com permissões diferentes para cada um. Construído com NextJS e SASS no front-end e Node, Express no back-end com o banco de dados MongoDB.',
       deployLink: 'https://gestor-escolar.vercel.app/',
       imageLink: 'schoolPrint.png',
-      inRefactoring: true,
     },
     {
       githubLink: '/To-Do-List-React',
