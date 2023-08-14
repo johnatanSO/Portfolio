@@ -1,4 +1,14 @@
-export function useCreateProjectsList() {
+interface Project {
+  githubLink: string
+  title: string
+  description: string
+  deployLink: string
+  imageLink: string
+  toRefactor?: boolean
+  inRefactoring?: boolean
+}
+
+export function useCreateProjectsList(): Project[] {
   return [
     {
       githubLink: '/sistema-de-vendas',
