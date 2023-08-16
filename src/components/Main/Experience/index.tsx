@@ -27,7 +27,7 @@ export function Experience() {
               com Figma, desenvolvimento das páginas e das funcionalidades no
               back-end e no front-end, até o deploy, utilizando as tecnologias:{' '}
               <b>
-                NextJS, Typescript, Javascript, MongoDB, SASS, NodeJS, Express,
+                NextJS, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
               </b>{' '}
               práticas de <b>CI/CD</b> e versionamento de código com{' '}
               <b>GIT/GITHUB</b> com modelo <b>GIT FLOW</b>;
@@ -60,9 +60,12 @@ export function Experience() {
               features, criando e integrando novas rotas na API, desenvolvendo
               novas páginas, e realizando a manutenção de problemas do sistema,
               utilizando as tecnologias:{' '}
-              <b>AngularJS, NodeJS, Express e MongoDB</b> e fazendo o
-              versionamento de todo o código utilizando <b>GIT/GITHUB</b> com
-              modelo <b>GIT FLOW.</b>
+              <b>
+                AngularJS, Typescript, Javascript, SASS, NodeJS, Express e
+                MongoDB
+              </b>{' '}
+              e fazendo o versionamento de todo o código utilizando{' '}
+              <b>GIT/GITHUB</b> com modelo <b>GIT FLOW.</b>
             </p>
           </li>
         </ul>
