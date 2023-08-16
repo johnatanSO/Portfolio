@@ -101,7 +101,7 @@ export function Header() {
         </p>
         <p style={{ marginTop: '20px' }}>
           E esse é o meu portfólio mostrando alguns projetos e contando um pouco
-          sobre minha experiência como desenvolvedor.
+          sobre minha trajetória como desenvolvedor.
         </p>
         <h3>Conheça um pouco mais abaixo</h3>
       </div>
