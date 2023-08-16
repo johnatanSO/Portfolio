@@ -16,24 +16,26 @@ export function Experience() {
             </h4>
             <span>( 01/12/2022 até atualmente )</span>
             <p>
-              - Trabalhando no <b>front-end</b> e no <b>back-end</b>{' '}
-              desenvolvendo novas features, criando e integrando novas rotas na
-              API, desenvolvendo novas páginas, e realizando manutenção em um
-              sistema ERP ( sistema para gestão empresarial focado em revendas
-              de Gás e Água, que é distribuído para todo o Brasil ), utilizando
-              as tecnologias: <b>Angular, Node e MongoDB,</b> e fazendo o
-              versionamento de todo o código utilizando <b>GIT</b> com modelo{' '}
-              <b>GIT FLOW.</b>
+              - Desenvolvendo um outro sistema ERP ( Gestor:{' '}
+              <b>
+                <a target="_blank" href="gestor.vendergas.com.br">
+                  gestor.vendergas.com.br
+                </a>
+              </b>{' '}
+              sistema focado em comércios em geral ), participando de todas as
+              etapas, desde o planejamento do sistema, construção da interface
+              com Figma, desenvolvimento das páginas e das funcionalidades no
+              back-end e no front-end, até o deploy, utilizando as tecnologias:{' '}
+              <b>
+                NextJS, Typescript, Javascript, MongoDB, SASS, NodeJS, Express,
+              </b>{' '}
+              práticas de <b>CI/CD</b> e versionamento de código com{' '}
+              <b>GIT/GITHUB</b> com modelo <b>GIT FLOW</b>;
             </p>
             <p>
-              - Desenvolvendo um microsserviço focado na área financeira desse
-              sistema ERP, participando de todas as etapas, desde o
-              planejamento, construção da interface com Figma, desenvolvimento
-              das páginas e funcionalidades no back e no front, até o deploy,
-              utilizando as tecnologias:{' '}
-              <b>ReactJS, NextJS, Typescript, MongoDB, SASS,</b> práticas de{' '}
-              <b>CI/CD</b> e versionamento de código com <b>GIT</b> com modelo{' '}
-              <b>GIT FLOW</b>.
+              {' '}
+              - Ainda continuei realizando manutenção e desenvolvendo novas
+              funcionalidades no sistema Vendergás, porém, com menor foco.
             </p>
           </li>
           <li>
@@ -42,24 +44,25 @@ export function Experience() {
             </h4>
             <span>( 01/06/2022 até 30/11/2022 )</span>
             <p>
-              - Trabalhando no <b>front-end</b> e no <b>back-end</b>{' '}
-              desenvolvendo novas features, criando e integrando novas rotas na
-              API, desenvolvendo novas páginas, e realizando manutenção em um
-              sistema ERP ( sistema para gestão empresarial focado em revendas
-              de Gás e Água, que é distribuído para todo o Brasil ), utilizando
-              as tecnologias: <b>Angular, Node e MongoDB,</b> e fazendo o
-              versionamento de todo o código utilizando <b>GIT</b> com modelo{' '}
-              <b>GIT FLOW.</b>
-            </p>
-            <p>
-              - Desenvolvendo um microsserviço focado na área financeira desse
-              sistema ERP, participando de todas as etapas, desde o
-              planejamento, construção da interface com Figma, desenvolvimento
-              das páginas e funcionalidades no back e no front, até o deploy,
+              - Trabalhando no <b>front-end</b> e no <b>back-end</b> de um
+              sistema ERP (Vendergás:{' '}
+              <b>
+                <a
+                  target="_blank"
+                  href="https://vendergas.com.br/"
+                  rel="noreferrer"
+                >
+                  https://vendergas.com.br/
+                </a>
+              </b>{' '}
+              sistema para gestão empresarial focado em revendas de GÁS e ÁGUA,
+              que é distribuído para todo o Brasil ), desenvolvendo novas
+              features, criando e integrando novas rotas na API, desenvolvendo
+              novas páginas, e realizando a manutenção de problemas do sistema,
               utilizando as tecnologias:{' '}
-              <b>ReactJS, NextJS, Typescript, MongoDB, SASS,</b> práticas de{' '}
-              <b>CI/CD</b> e versionamento de código com <b>GIT</b> com modelo{' '}
-              <b>GIT FLOW</b>.
+              <b>AngularJS, NodeJS, Express e MongoDB</b> e fazendo o
+              versionamento de todo o código utilizando <b>GIT/GITHUB</b> com
+              modelo <b>GIT FLOW.</b>
             </p>
           </li>
         </ul>
