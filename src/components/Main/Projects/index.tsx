@@ -57,7 +57,7 @@ export function Projects() {
                 <p>{project.description}</p>
 
                 <div className={style.buttonsContainer}>
-                  <Link
+                  <a
                     target="_blank"
                     rel="nooper noreferrer"
                     href={project.deployLink}
@@ -74,9 +74,9 @@ export function Projects() {
                       <RocketLaunch className="iconButton" size={18} />
                       Visitar
                     </button>
-                  </Link>
+                  </a>
 
-                  <Link
+                  <a
                     target="_blank"
                     rel="nooper noreferrer"
                     href={`https://github.com/johnatanSO${project.githubLink}`}
@@ -85,7 +85,7 @@ export function Projects() {
                       <GithubLogo className="iconButton" size={18} />
                       Github
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </li>
