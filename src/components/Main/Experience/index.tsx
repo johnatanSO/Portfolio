@@ -14,18 +14,25 @@ export function Experience() {
               <b>Desenvolvedor Full Stack Júnior</b> - VENDERGÁS Soluções em
               tecnologia
             </h4>
-            <span>( 01/12/2022 até atualmente )</span>
+            <span>(01/12/2022 até atualmente)</span>
             <p>
-              - Desenvolvendo um outro sistema ERP ( Gestor:{' '}
+              - Desenvolvendo um outro sistema ERP <br /> (Gestor:{' '}
               <b>
-                <a target="_blank" href="gestor.vendergas.com.br">
-                  gestor.vendergas.com.br
+                <a
+                  target="_blank"
+                  href="https://gestor.vendergas.com.br"
+                  rel="noreferrer"
+                >
+                  https://gestor.vendergas.com.br
                 </a>
               </b>{' '}
-              sistema focado em comércios em geral ), participando de todas as
-              etapas, desde o planejamento do sistema, construção da interface
-              com Figma, desenvolvimento das páginas e das funcionalidades no
-              back-end e no front-end, até o deploy, utilizando as tecnologias:{' '}
+              sistema focado em comércios em geral, com funcionalidades de
+              lançamento de vendas, controle de contas e despesas, estoques de
+              produtos, fiscal e etc), participando de todas as etapas, desde o
+              planejamento do sistema, construção da interface com Figma,
+              desenvolvimento das páginas e das funcionalidades no{' '}
+              <b>back-end</b> e no <b>front-end</b>, até o deploy, utilizando as
+              tecnologias:{' '}
               <b>
                 NextJS, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
               </b>{' '}
@@ -42,7 +49,7 @@ export function Experience() {
             <h4 style={{ fontSize: '1.5rem' }}>
               <b>Estágio</b> - VENDERGÁS Soluções em tecnologia
             </h4>
-            <span>( 01/06/2022 até 30/11/2022 )</span>
+            <span>(01/06/2022 até 30/11/2022)</span>
             <p>
               - Trabalhando no <b>front-end</b> e no <b>back-end</b> de um
               sistema ERP (Vendergás:{' '}

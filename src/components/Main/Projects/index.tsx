@@ -2,7 +2,6 @@ import React from 'react'
 import style from './Projects.module.scss'
 import { GithubLogo, RocketLaunch } from 'phosphor-react'
 import { useCreateProjectsList } from '../../../hooks/useCreateProjectsList'
-import Link from 'next/link'
 
 export function Projects() {
   const projects = useCreateProjectsList()
