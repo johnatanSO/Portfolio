@@ -18,8 +18,7 @@
 
       a {
         color: $primary-color;
-        text-decoration: none;
-        font-weight: 500;
+        font-weight: 600;
 
         &:hover {
           filter: brightness(0.8);
@@ -37,6 +36,7 @@
 
     .observation {
       color: $primary-color;
+      font-weight: 500;
       margin-top: 10px;
       display: block;
     }
