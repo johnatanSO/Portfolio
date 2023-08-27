@@ -94,7 +94,7 @@ export function Header() {
         <h2>Olá, seja bem vindo!</h2>
         <p>
           <b>Meu nome é Johnatan,</b> sou um Desenvolvedor Web Full Stack. Com
-          uma formação Análise e Desenvolvimento de Sistemas e cerca de dois
+          uma formação em Análise e Desenvolvimento de Sistemas e cerca de dois
           anos de experiência, tenho uma paixão por tecnologia e venho buscando
           evoluir cada vez mais participando sempre de projetos desafiadores e
           aplicações completas e de alta qualidade.
