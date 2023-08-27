@@ -27,7 +27,7 @@ export function Experience() {
                   (https://gestor.vendergas.com.br)
                 </a>
               </b>
-              , destinado a comércios em geral, com funcionalidades de
+              , destinado à comércios em geral, com funcionalidades de
               lançamento de vendas, controle de contas e despesas, estoques de
               produtos, fiscal e etc. Participei ativamente de todas as etapas,
               desde o planejamento do sistema, construção da interface com
