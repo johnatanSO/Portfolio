@@ -66,7 +66,7 @@ export function Experience() {
               Desenvolvendo novas funcionalidades, criando e integrando rotas na
               API, planejamento e criação de novas páginas e resolvendo
               problemas do sistema. Minhas responsabilidades envolveram tanto o
-              front-end como o back-end, com o foco em tecnologias como:
+              front-end como o back-end, com o foco em tecnologias como:{' '}
               <b>
                 AngularJS, Typescript, Javascript, SASS, NodeJS, Express e
                 MongoDB
