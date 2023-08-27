@@ -1,11 +1,11 @@
-@import '../../../../styles/colors.scss';
+@import "../../../../styles/colors.scss";
 
 .experienceContainer {
   display: flex;
   gap: 20%;
   padding: 50px 10%;
   margin: 50px 0px;
-  
+
   .experienceText {
     text-align: left;
     max-width: 50%;
@@ -16,28 +16,32 @@
       color: $primary-color;
     }
 
-    ul{
+    ul {
       list-style-type: none;
 
-      li{
-        b, a{
+      li {
+        b,
+        a {
           color: $primary-color;
         }
+        a {
+          text-decoration: underline;
+        }
 
-        h4{
+        h4 {
           font-weight: 600;
           font-size: 1.1rem;
         }
-        span{
-          font-size: 0.950rem;
+        span {
+          font-size: 0.95rem;
         }
 
-        p{
+        p {
           margin-top: 15px;
         }
 
-        &:not(:first-of-type){
-          margin-top: 80px
+        &:not(:first-of-type) {
+          margin-top: 80px;
         }
       }
     }
@@ -59,15 +63,14 @@
       width: 100%;
     }
   }
-  
 }
 
 @media (max-width: 1100px) {
-  .experienceText{
+  .experienceText {
     max-width: 100% !important;
     text-align: center !important;
   }
-  .experienceImage{
+  .experienceImage {
     display: none !important;
   }
 }

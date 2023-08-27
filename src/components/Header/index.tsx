@@ -93,11 +93,11 @@ export function Header() {
       <div className={style.welcomeContent}>
         <h2>Olá, seja bem vindo!</h2>
         <p>
-          <b>Meu nome é Johnatan,</b> sou um Desenvolvedor Web Full Stack
-          formado em Análise e Desenvolvimento de Sistemas, apaixonado por
-          tecnologia e com cerca de 2 anos de experiência, venho buscando
+          <b>Meu nome é Johnatan,</b> sou um Desenvolvedor Web Full Stack. Com
+          uma formação Análise e Desenvolvimento de Sistemas e cerca de dois
+          anos de experiência, tenho uma paixão por tecnologia e venho buscando
           evoluir cada vez mais participando sempre de projetos desafiadores e
-          desenvolvendo aplicações completas e de alta qualidade.
+          aplicações completas e de alta qualidade.
         </p>
         <p style={{ marginTop: '20px' }}>
           E esse é o meu portfólio mostrando alguns projetos e contando um pouco

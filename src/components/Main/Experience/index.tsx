@@ -14,25 +14,26 @@ export function Experience() {
               <b>Desenvolvedor Full Stack Júnior</b> - VENDERGÁS Soluções em
               tecnologia
             </h4>
-            <span>(01/12/2022 até atualmente)</span>
+            <span>(01/12/2022 - Atualidade)</span>
             <p>
-              - Desenvolvendo um outro sistema ERP <br /> (Gestor:{' '}
+              - Liderança no desenvolvimento de um sistema ERP,
+              <br /> o Gestor{' '}
               <b>
                 <a
                   target="_blank"
                   href="https://gestor.vendergas.com.br"
                   rel="noreferrer"
                 >
-                  https://gestor.vendergas.com.br
+                  (https://gestor.vendergas.com.br)
                 </a>
-              </b>{' '}
-              sistema focado em comércios em geral, com funcionalidades de
+              </b>
+              , destinado a comércios em geral, com funcionalidades de
               lançamento de vendas, controle de contas e despesas, estoques de
-              produtos, fiscal e etc), participando de todas as etapas, desde o
-              planejamento do sistema, construção da interface com Figma,
-              desenvolvimento das páginas e das funcionalidades no{' '}
-              <b>back-end</b> e no <b>front-end</b>, até o deploy, utilizando as
-              tecnologias:{' '}
+              produtos, fiscal e etc. Participei ativamente de todas as etapas,
+              desde o planejamento do sistema, construção da interface com
+              Figma, desenvolvimento das páginas e das funcionalidades no{' '}
+              <b>back-end</b> e no <b>front-end</b>, até a implementação.
+              Utilizei tecnologias avançadas como:{' '}
               <b>
                 NextJS, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
               </b>{' '}
@@ -41,32 +42,31 @@ export function Experience() {
             </p>
             <p>
               {' '}
-              - Ainda continuei realizando manutenção e desenvolvendo novas
-              funcionalidades no sistema Vendergás, porém, com menor foco.
+              - Adicionalmente, mantive meu papel no desenvolvimento contínuo e
+              melhorias do sistema Vendergás, embora com menor ênfase.
             </p>
           </li>
           <li>
             <h4 style={{ fontSize: '1.5rem' }}>
               <b>Estágio</b> - VENDERGÁS Soluções em tecnologia
             </h4>
-            <span>(01/06/2022 até 30/11/2022)</span>
+            <span>(01/06/2022 - 30/11/2022)</span>
             <p>
-              - Trabalhando no <b>front-end</b> e no <b>back-end</b> de um
-              sistema ERP (Vendergás:{' '}
+              - Contribuí ativamente para o sistema ERP Vendergás:{' '}
               <b>
                 <a
                   target="_blank"
                   href="https://vendergas.com.br/"
                   rel="noreferrer"
                 >
-                  https://vendergas.com.br/
+                  (https://vendergas.com.br/)
                 </a>
-              </b>{' '}
-              sistema para gestão empresarial focado em revendas de GÁS e ÁGUA,
-              que é distribuído para todo o Brasil ), desenvolvendo novas
-              features, criando e integrando novas rotas na API, desenvolvendo
-              novas páginas, e realizando a manutenção de problemas do sistema,
-              utilizando as tecnologias:{' '}
+              </b>
+              , destinado à gestão de revendas de Gás e Água em todo o Brasil.
+              Desenvolvendo novas funcionalidades, criando e integrando rotas na
+              API, planejamento e criação de novas páginas e resolvendo
+              problemas do sistema. Minhas responsabilidades envolveram tanto o
+              front-end como o back-end, com o foco em tecnologias como:
               <b>
                 AngularJS, Typescript, Javascript, SASS, NodeJS, Express e
                 MongoDB
