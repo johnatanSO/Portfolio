@@ -11,6 +11,14 @@ interface Project {
 export function useCreateProjectsList(): Project[] {
   return [
     {
+      githubLink: '/rentx',
+      title: 'rental',
+      description:
+        'Esta é uma aplicação destinada à um estabelecimento que realiza alugueis de carros. O sistema possui uma área para interação do cliente, e também uma área de gestão com permissões de administrador para que o usuário possa fazer o controle de carros cadastrados, categorias, especificações, alugueis.',
+      deployLink: 'https://rentx-145iw47y0-johnatanso.vercel.app/',
+      imageLink: 'rentx.png',
+    },
+    {
       githubLink: '/sistema-de-vendas',
       title: 'comerce',
       description:
