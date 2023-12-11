@@ -83,7 +83,7 @@ export function Experience() {
           src={experienceImage}
           width={240}
           height={300}
-          alt=""
+          alt="Background image experience"
         />
       </div>
     </section>

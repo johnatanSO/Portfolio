@@ -25,7 +25,7 @@ export function Projects() {
             conferir.
           </p>
           <p className={style.observation}>
-            ( *OBS: Os projetos foram feitos a algum tempo atrás, então no
+            ( *OBS: Alguns projetos foram feitos a algum tempo atrás, então no
             momento, estão passando por um processo de refatoração e melhoria de
             código )
           </p>
@@ -39,7 +39,7 @@ export function Projects() {
               <img
                 className={style.backgroundProjectImage}
                 src={'../../../assets/images/' + project.imageLink}
-                alt=""
+                alt="Imagem do projeto"
               />
               <div className={style.descriptionContainer}>
                 {project?.inRefactoring && (
