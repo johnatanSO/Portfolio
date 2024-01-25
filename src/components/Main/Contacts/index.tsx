@@ -28,8 +28,10 @@ export function Contacts() {
             rel="nooper noreferrer"
             href="https://github.com/johnatanSO/"
           >
+            <>
               <FontAwesomeIcon icon={faGithub} />
               <span>Github</span>
+            </>
           </Link>
         </li>
 
@@ -40,8 +42,10 @@ export function Contacts() {
             rel="nooper noreferrer"
             href="https://www.linkedin.com/in/johnatan-santos/"
           >
+            <>
               <FontAwesomeIcon icon={faLinkedin} />
               <span>Linkedin</span>
+            </>
           </Link>
         </li>
 
@@ -52,8 +56,10 @@ export function Contacts() {
             rel="nooper noreferrer"
             href="https://wa.me/5561984022596"
           >
+            <>
               <FontAwesomeIcon icon={faWhatsapp} />
               <span>(61) 9 8402 - 2596</span>
+            </>
           </Link>
         </li>
 
@@ -64,8 +70,10 @@ export function Contacts() {
             rel="nooper noreferrer"
             href="mailto:devsantosjohn@gmail.com"
           >
+            <>
               <FontAwesomeIcon icon={faEnvelope} />
               <span>devsantosjohn@gmail.com</span>
+            </>
           </Link>
         </li>
       </ul>
