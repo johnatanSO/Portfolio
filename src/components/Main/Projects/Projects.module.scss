@@ -64,7 +64,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 2rem;
     margin-top: 35px;
     list-style-type: none;
     width: 95%;
@@ -73,7 +73,7 @@
       background: $gray-color-500;
       width: 460px;
       height: 300px;
-      border-radius: 15px;
+      border-radius: 20px;
       box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.333);
       //padding: 10px;
       position: relative;
@@ -91,10 +91,7 @@
       }
 
       .backgroundProjectImage {
-        transition:
-          filter 0.2s,
-          opacity 0.2s,
-          transform 0.2s;
+        transition: filter 0.2s, opacity 0.2s, transform 0.2s;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -103,7 +100,7 @@
       }
 
       .descriptionContainer {
-        background: rgb(0 0 0 / 0.7);
+        background: rgb(0 0 0 / 0.9);
         // border-radius: 15px;
         position: absolute;
         animation: appear 0.3s;
@@ -117,12 +114,12 @@
 
         .buttonsContainer {
           display: flex;
-          gap: 15px;
+          gap: 1rem;
 
           .visitButton,
           .githubButton {
             border: none;
-            border-radius: 7px;
+            border-radius: 20px;
             padding: 7px 10px;
             cursor: pointer;
             display: flex;
@@ -162,9 +159,9 @@
 
           font-weight: 600;
           font-size: 0.875rem;
-          border-radius: 7px;
+          border-radius: 20px;
           text-align: center;
-          padding: 5px;
+          padding: 0.7rem;
           line-height: 1;
 
           &.inRefactoring {

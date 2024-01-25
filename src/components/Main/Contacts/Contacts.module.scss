@@ -1,44 +1,47 @@
-@import '../../../../styles/colors.scss';
+@import "../../../../styles/colors.scss";
 
-.contactContainer{
+.contactContainer {
   padding: 50px;
   margin-top: 20px;
   width: 100vw !important;
-  
+
   background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
 
-  h2{
+  h2 {
     font-size: 3rem;
     margin-bottom: 15px;
     color: $primary-color;
   }
 
-  .gridContact{
+  .gridContact {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 15px;
     margin-top: 30px;
 
-    li{
-      width: auto;
+    li {
       list-style-type: none;
-      box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.331);
-      background-color: #2b2b2b;
-      border-radius: 10px;
-      padding: 10px 12px;
+      box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.731);
+      background: #2b2b2b;
+      border-radius: 20px;
+      padding: 0.7rem;
+
       transition: filter 0.2s;
       cursor: pointer;
 
-      a{
+      .link {
         display: flex;
-        gap: 10px;
         align-items: center;
+        gap: 0.7rem !important;
+
+        font-weight: 500;
+        font-size: 0.875rem;
       }
 
-      &:hover{
+      &:hover {
         filter: brightness(1.2);
       }
     }

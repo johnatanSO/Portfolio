@@ -27,11 +27,11 @@ export function SkillsContent() {
         <p>
           Como desenvolvedor Full Stack, tenho habilidades sólidas em diversas
           tecnologias web, incluindo
-          <b> HTML, CSS, SASS (SCSS), JavaScript e Typescript. </b>
+          <b> HTML, CSS/SASS modules, Typescript/JavaScript. </b>
           Além disso, tenho experiência com frameworks como{' '}
-          <b>ReactJS, AngularJS e NextJS, </b>que me ajudam a desenvolver
+          <b>ReactJS, NextJS e AngularJS</b>, que me ajudam a desenvolver
           aplicações web responsivas e dinâmicas, buscando sempre aplicar as
-          melhores práticas.
+          melhores práticas e manter um código limpo.
         </p>
         <p>
           Possuo também experiência em criação e integração de <b>APIs REST </b>
