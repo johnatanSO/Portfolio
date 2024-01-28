@@ -32,14 +32,12 @@
       transition: filter 0.2s;
       cursor: pointer;
 
-      .link {
-        display: flex;
-        align-items: center;
-        gap: 0.7rem !important;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
 
-        font-weight: 500;
-        font-size: 0.875rem;
-      }
+      font-weight: 500;
+      font-size: 0.875rem;
 
       &:hover {
         filter: brightness(1.2);

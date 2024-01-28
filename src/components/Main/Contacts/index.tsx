@@ -29,7 +29,7 @@ export function Contacts() {
             href="https://github.com/johnatanSO/"
           >
             <>
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon className={style.icon} icon={faGithub} />
               <span>Github</span>
             </>
           </Link>
@@ -43,7 +43,7 @@ export function Contacts() {
             href="https://www.linkedin.com/in/johnatan-santos/"
           >
             <>
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon className={style.icon} icon={faLinkedin} />
               <span>Linkedin</span>
             </>
           </Link>
@@ -57,7 +57,7 @@ export function Contacts() {
             href="https://wa.me/5561984022596"
           >
             <>
-              <FontAwesomeIcon icon={faWhatsapp} />
+              <FontAwesomeIcon className={style.icon} icon={faWhatsapp} />
               <span>(61) 9 8402 - 2596</span>
             </>
           </Link>
@@ -71,7 +71,7 @@ export function Contacts() {
             href="mailto:devsantosjohn@gmail.com"
           >
             <>
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon className={style.icon} icon={faEnvelope} />
               <span>devsantosjohn@gmail.com</span>
             </>
           </Link>
