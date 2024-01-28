@@ -34,7 +34,7 @@ export function useCreateProjectsList(): Project[] {
       deployLink: 'https://gestor-escolar.vercel.app/',
       imageLink: 'schoolPrint.png',
     },
-    {
+    /* {
       githubLink: '/To-Do-List-React',
       title: 'todo',
       description:
@@ -49,7 +49,7 @@ export function useCreateProjectsList(): Project[] {
         'Esse é um projeto de uma biblioteca para busca de filmes e séries construído usando NextJS, SASS no front end e a API OMdb para pesquisa de dados.',
       deployLink: 'https://api-films.vercel.app/',
       imageLink: 'moviesPrint.png',
-    },
+    }, */
     {
       githubLink: '/JOGO-DA-MEMORIA',
       title: 'memoryGame',
