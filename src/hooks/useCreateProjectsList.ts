@@ -14,7 +14,7 @@ export function useCreateProjectsList(): Project[] {
       githubLink: '/rentx',
       title: 'rental',
       description:
-        'Esta é uma aplicação destinada à um estabelecimento que realiza alugueis de carros. O sistema possui uma área para interação do cliente, e também uma área de gestão com permissões de administrador para que o usuário possa fazer o controle de carros cadastrados, categorias, especificações, alugueis e etc.',
+        'Esta é uma aplicação completa destinada à um estabelecimento que realiza alugueis de carros. O sistema possui uma área para interação do cliente, e também uma área para gestão com permissões de administrador para que o usuário possa fazer o controle de carros cadastrados, categorias, especificações, alugueis e etc. Para saber mais, leia o README no Github.',
       deployLink: 'https://rentx-two.vercel.app/',
       imageLink: 'rentx-image.png',
     },
@@ -22,7 +22,7 @@ export function useCreateProjectsList(): Project[] {
       githubLink: '/sistema-de-vendas',
       title: 'comerce',
       description:
-        'Esse é um sistema ERP para gerenciamento de dados de um comércio, com funcionalidades de login/cadastro de conta, dashboard, cadastro de produtos, vendas, contas a pagar/receber e clientes. O sistema possui também uma versão mobile construída com React Native.',
+        'Esse é um sistema ERP para gerenciamento de dados de um comércio, com funcionalidades de autenticação, dashboard, cadastro de produtos/estoque, vendas, contas a pagar/receber e clientes. O sistema possui também uma versão mobile construída com React Native. Para saber mais, leia o README no Github.',
       deployLink: 'https://sistema-de-vendas-lac.vercel.app/',
       imageLink: 'sistema-de-vendas.png',
     },
@@ -30,7 +30,7 @@ export function useCreateProjectsList(): Project[] {
       githubLink: '/gestor-escolar',
       title: 'schoolSystem',
       description:
-        'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos de uma escola como: notas, faltas e advertências. O sistema é dividido em duas áreas, uma para professores e uma para alunos com permissões diferentes para cada um. Construído com NextJS e SASS no front-end e Node, Express no back-end com o banco de dados MongoDB.',
+        'Esse é um sistema escolar feito para controlar e gerenciar dados de alunos de uma escola como notas, faltas, advertências, disciplinas, etc. O sistema é dividido em duas áreas através de uma autenticação, uma para professores e uma para alunos com permissões e rotas diferentes para cada um. Para saber mais, leia o README no Github.',
       deployLink: 'https://gestor-escolar.vercel.app/',
       imageLink: 'schoolPrint.png',
     },
