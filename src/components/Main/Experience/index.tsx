@@ -16,7 +16,7 @@ export function Experience() {
             </h4>
             <span>(01/12/2022 - Atualidade)</span>
             <p>
-              - Liderança no desenvolvimento de um sistema ERP,
+              - Participação integral no desenvolvimento de um sistema ERP,
               <br /> o Gestor{' '}
               <b>
                 <a
@@ -29,15 +29,15 @@ export function Experience() {
               </b>
               , destinado à comércios em geral, com funcionalidades de
               lançamento de vendas, controle de contas e despesas, estoques de
-              produtos, fiscal e etc. Participei ativamente de todas as etapas,
+              produtos, emissão de notas fiscais e etc. Participei ativamente de todas as etapas,
               desde o planejamento do sistema, construção da interface com
               Figma, desenvolvimento das páginas e das funcionalidades no{' '}
               <b>back-end</b> e no <b>front-end</b>, até a implementação.
               Utilizei tecnologias avançadas como:{' '}
               <b>
-                NextJS, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
+                NextJS/React, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
               </b>{' '}
-              práticas de <b>CI/CD</b> e versionamento de código com{' '}
+              testes unitários com <b>Jest</b>, práticas de <b>CI/CD</b> e versionamento de código com{' '}
               <b>GIT/GITHUB</b> com modelo <b>GIT FLOW</b>;
             </p>
             <p>
