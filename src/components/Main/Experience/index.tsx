@@ -29,16 +29,18 @@ export function Experience() {
               </b>
               , destinado à comércios em geral, com funcionalidades de
               lançamento de vendas, controle de contas e despesas, estoques de
-              produtos, emissão de notas fiscais e etc. Participei ativamente de todas as etapas,
-              desde o planejamento do sistema, construção da interface com
-              Figma, desenvolvimento das páginas e das funcionalidades no{' '}
-              <b>back-end</b> e no <b>front-end</b>, até a implementação.
-              Utilizei tecnologias avançadas como:{' '}
+              produtos, emissão de notas fiscais e etc. Participei ativamente de
+              todas as etapas, desde o planejamento do sistema, construção da
+              interface com Figma, desenvolvimento das páginas e das
+              funcionalidades no <b>back-end</b> e no <b>front-end</b>, até a
+              implementação. Utilizei tecnologias avançadas como:{' '}
               <b>
-                NextJS/React, Typescript, Javascript, SASS, NodeJS, Express, MongoDB,
+                NextJS/React, Typescript, Javascript, SASS, NodeJS, Express,
+                MongoDB,
               </b>{' '}
-              testes unitários com <b>Jest</b>, práticas de <b>CI/CD</b> e versionamento de código com{' '}
-              <b>GIT/GITHUB</b> com modelo <b>GIT FLOW</b>;
+              testes unitários com <b>Jest</b>, práticas de <b>CI/CD</b> e
+              versionamento de código com <b>GIT/GITHUB</b> com modelo{' '}
+              <b>GIT FLOW</b>;
             </p>
             <p>
               {' '}
