@@ -14,7 +14,7 @@
  <h2>🖼 GIF da tela da aplicação funcionando: </h2>
 <img width="80%" src="public/assets/images/pageGIF.gif">
 <br> 
-  
+
 
 <h2>🚀 Tecnologias utilizadas: </h2>
 
@@ -23,8 +23,9 @@
   <img align="center" alt="John-SASS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
   <img align="center" alt="John-NextJS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg">
   <img align="center" alt="John-TS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  (HTML, NextJS, CSS/SASS, Typescript/Javascript)
+  <img align="center" alt="John-JS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
+(HTML, NextJS, CSS/SASS, Typescript/Javascript)
 <br>
 <h2>👷 Como testar? </h2>
 <h3>Entre com o seguinte link: </h3>
