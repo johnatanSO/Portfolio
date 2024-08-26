@@ -4,17 +4,12 @@
 
 <p>Esse é uma página feita para mostrar alguns projetos e contar um pouco sobre minha experiência na área de desenvolvimento.</p>
 
-<p>📝 O sistema possui:</p>
- <li>Área de skills</li>
- <li>Área de experiências</li>
- <li>Área de projetos</li>
- <li>Área de contatos</li>
- <br>
- 
- <h2>🖼 GIF da tela da aplicação funcionando: </h2>
-<img width="80%" src="public/assets/images/pageGIF.gif">
-<br> 
+<h4>Link do deploy</h4>
+<a target="_blank" href="https://portfolio-ecru-eta-75.vercel.app/">https://portfolio-ecru-eta-75.vercel.app/</a>
 
+<h2>🖼 GIF :)</h2>
+<img width="80%" src="public/assets/images/pageGIF.gif">
+<br>
 
 <h2>🚀 Tecnologias utilizadas: </h2>
 
@@ -28,9 +23,7 @@
 (HTML, NextJS, CSS/SASS, Typescript/Javascript)
 <br>
 <h2>👷 Como testar? </h2>
-<h3>Entre com o seguinte link: </h3>
-<a target="_blank" href="https://portfolio-johnatanso.vercel.app/">https://portfolio-johnatanso.vercel.app/</a>
-<h3>Ou</h3>
+
 <li> Clone o repositório com: git clone https://github.com/johnatanSO/Portfolio.git
 <li> Entre em uma IDE de sua preferência
 <li> Execute o npm install para instalar as dependências
