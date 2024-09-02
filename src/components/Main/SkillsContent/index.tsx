@@ -25,13 +25,14 @@ export function SkillsContent() {
       <div data-aos="fade-right" className={style.skillsText}>
         <h2>Skills</h2>
         <p>
-          Como Desenvolvedor Web Full Stack, tenho habilidades sólidas em diversas
-          tecnologias web, incluindo
+          Como Desenvolvedor Web Full Stack, tenho habilidades sólidas em
+          diversas tecnologias web, incluindo
           <b> HTML, CSS/SASS modules, Typescript/JavaScript. </b>
           Além disso, tenho experiência com frameworks como{' '}
-          <b>ReactJS, NextJS e AngularJS</b>, e suas bibliotecas como, ContextAPI, WebSockets, React Hook Form, etc, que me ajudam a desenvolver
-          aplicações web responsivas e dinâmicas, buscando sempre aplicar as
-          melhores práticas e manter um código limpo.
+          <b>ReactJS, NextJS, AngularJS</b>, e suas bibliotecas como,
+          ContextAPI, WebSockets, React Hook Form, etc, que me ajudam a
+          desenvolver aplicações web responsivas e dinâmicas, buscando sempre
+          aplicar as melhores práticas e manter um código limpo.
         </p>
         <p>
           Possuo também experiência em criação e integração de <b>APIs REST </b>
@@ -42,9 +43,10 @@ export function SkillsContent() {
         </p>
         <p>
           Além disso, tenho experiência em ferramentas e tecnologias importantes
-          como <b>Docker, GIT/GITHUB, Firebase</b>, práticas de <b>CI/CD, Clean Code, SOLID,</b> testes automatizados com <b>JEST,</b>
-          que me permitem desenvolver soluções completas, seguras e integradas, desde a
-          fase de desenvolvimento até a implementação.
+          como <b>Docker, GIT/GITHUB, Firebase</b>, práticas de{' '}
+          <b>CI/CD, Clean Code, SOLID,</b> testes automatizados com <b>JEST,</b>
+          que me permitem desenvolver soluções completas, seguras e integradas,
+          desde a fase de desenvolvimento até a implementação.
         </p>
       </div>
     </section>
