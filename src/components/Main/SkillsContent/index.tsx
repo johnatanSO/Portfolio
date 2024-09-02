@@ -44,7 +44,7 @@ export function SkillsContent() {
         <p>
           Além disso, tenho experiência em ferramentas e tecnologias importantes
           como <b>Docker, GIT/GITHUB, Firebase</b>, práticas de{' '}
-          <b>CI/CD, Clean Code, SOLID,</b> testes automatizados com <b>JEST,</b>
+          <b>CI/CD, Clean Code, SOLID,</b> testes automatizados com <b>JEST,</b>{' '}
           que me permitem desenvolver soluções completas, seguras e integradas,
           desde a fase de desenvolvimento até a implementação.
         </p>
