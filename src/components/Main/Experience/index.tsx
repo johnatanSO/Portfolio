@@ -35,12 +35,12 @@ export function Experience() {
               funcionalidades no <b>back-end</b> e no <b>front-end</b>, até a
               implementação. Utilizei tecnologias avançadas como:{' '}
               <b>
-                NextJS/React, Typescript, Javascript, SASS, NodeJS, Express,
-                MongoDB,
+                NextJS/React, ContextAPI, WebSockets, Typescript, Javascript,
+                SASS, NodeJS, Express, MongoDB,
               </b>{' '}
-              testes unitários com <b>Jest</b>, práticas de <b>CI/CD</b> e
-              versionamento de código com <b>GIT/GITHUB</b> com modelo{' '}
-              <b>GIT FLOW</b>;
+              testes unitários com <b>Jest</b>, práticas de{' '}
+              <b>CI/CD, Clean Code, SOLID</b> e versionamento de código com{' '}
+              <b>GIT/GITHUB</b> com modelo <b>GIT FLOW</b>;
             </p>
             <p>
               {' '}
