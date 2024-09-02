@@ -30,7 +30,7 @@ export function SkillsContent() {
           <b> HTML, CSS/SASS modules, Typescript/JavaScript. </b>
           Além disso, tenho experiência com frameworks como{' '}
           <b>ReactJS, NextJS, AngularJS</b>, e suas bibliotecas como,
-          ContextAPI, WebSockets, React Hook Form, etc, que me ajudam a
+          <b>>ContextAPI, WebSockets, React Hook Form, etc.</b> Que me ajudam a
           desenvolver aplicações web responsivas e dinâmicas, buscando sempre
           aplicar as melhores práticas e manter um código limpo.
         </p>
