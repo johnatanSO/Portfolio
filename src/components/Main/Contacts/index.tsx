@@ -58,7 +58,7 @@ export function Contacts() {
           >
             <>
               <FontAwesomeIcon className={style.icon} icon={faWhatsapp} />
-              <span>(61) 9 8402 - 2596</span>
+              <span>(61) 98402-2596</span>
             </>
           </Link>
         </li>

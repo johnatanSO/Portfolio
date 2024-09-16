@@ -8,17 +8,10 @@ export function Header() {
   return (
     <div className={style.headerContainer}>
       <div className={style.header}>
-        <div className={style.logo}>
+        <div className={style.logoContainer}>
           <h1>{'<Johnatan />'}</h1>
-          <h3
-            style={{
-              fontWeight: '300',
-              fontSize: '0.8rem',
-              letterSpacing: '4px',
-            }}
-          >
-            Web Developer
-          </h3>
+          <h3>Web Developer</h3>
+
           <ul className={style.socialMediaList}>
             <li>
               <a

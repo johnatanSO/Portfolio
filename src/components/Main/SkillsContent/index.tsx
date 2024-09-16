@@ -8,7 +8,7 @@ export function SkillsContent() {
   return (
     <section id="skillsContainer" className={style.skillsContainer}>
       <ul data-aos="fade-right" className={style.skillsImageGrid}>
-        {skillsList?.map((skill: any) => {
+        {skillsList.map((skill) => {
           return (
             <li key={skill.src}>
               <Image
