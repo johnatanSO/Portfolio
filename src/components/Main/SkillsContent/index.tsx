@@ -27,12 +27,13 @@ export function SkillsContent() {
         <p>
           Como Desenvolvedor Web Full Stack, tenho habilidades sólidas em
           diversas tecnologias web, incluindo
-          <b> HTML, CSS/SASS modules, Typescript/JavaScript. </b>
+          <b> HTML, CSS, SASS, Typescript, JavaScript. </b>
           Além disso, tenho experiência com frameworks como{' '}
-          <b>ReactJS, NextJS, AngularJS</b>, e suas bibliotecas como,
-          <b>ContextAPI, WebSockets, React Hook Form, etc.</b> Que me ajudam a
-          desenvolver aplicações web responsivas e dinâmicas, buscando sempre
-          aplicar as melhores práticas e manter um código limpo.
+          <b>React, NextJS, Angular, Electron,</b> e suas bibliotecas como,{' '}
+          <b>ContextAPI, WebSockets, React Hook Form, ZOD, Material UI, etc.</b>{' '}
+          Que me ajudam a desenvolver aplicações web responsivas, dinâmicas e
+          escaláveis, buscando sempre aplicar as melhores práticas e manter um
+          código limpo.
         </p>
         <p>
           Possuo também experiência em criação e integração de <b>APIs REST </b>
@@ -43,7 +44,7 @@ export function SkillsContent() {
         </p>
         <p>
           Além disso, tenho experiência em ferramentas e tecnologias importantes
-          como <b>Docker, GIT/GITHUB, Firebase</b>, práticas de{' '}
+          como <b>Docker, GIT, GITHUB, Firebase</b>, práticas de{' '}
           <b>CI/CD, Clean Code, SOLID,</b> testes automatizados com <b>JEST,</b>{' '}
           que me permitem desenvolver soluções completas, seguras e integradas,
           desde a fase de desenvolvimento até a implementação.

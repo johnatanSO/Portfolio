@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './Header.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -9,7 +8,7 @@ export function Header() {
     <div className={style.headerContainer}>
       <div className={style.header}>
         <div className={style.logo}>
-          <h1>{'<Johnatan />'}</h1>
+          <h1 className={style.title}>{'<Johnatan />'}</h1>
           <h3
             style={{
               fontWeight: '300',
