@@ -33,7 +33,7 @@ export function Projects() {
       </div>
 
       <ul data-aos="fade-up" className={style.gridProjects}>
-        {projects?.map((project) => {
+        {projects.map((project) => {
           return (
             <li key={project.deployLink} className={style.projectCard}>
               <img
