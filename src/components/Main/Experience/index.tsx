@@ -47,6 +47,15 @@ export function Experience() {
               - Adicionalmente, mantive meu papel no desenvolvimento contínuo e
               melhorias do sistema Vendergás, embora com menor ênfase.
             </p>
+            <p>
+              - Desenvolvi um <b>CHATBOT</b> para a empresa, chamado MAIA,
+              integrado com os dois sistemas ERP, que faz o envio de mensagem
+              automáticas para o whatsapp de clientes quando um pedido é
+              finalizado no sistema, utilizando as tecnologias{' '}
+              <b>Electron, HTML, CSS, Javascript, WebSockets, Axios, JEST</b>{' '}
+              para testes unitários, integração com uma <b>API do whatsapp</b> e
+              controle de versão com <b>GIT e Github.</b>
+            </p>
           </li>
           <li>
             <h4 style={{ fontSize: '1.5rem' }}>
