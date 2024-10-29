@@ -29,7 +29,8 @@ export function SkillsContent() {
           diversas tecnologias web, incluindo
           <b> HTML, CSS, SASS, Typescript, JavaScript. </b>
           Além disso, tenho experiência com frameworks como{' '}
-          <b>React, NextJS, Angular, Electron,</b> e suas bibliotecas como,{' '}
+          <b>React, NextJS, Angular, Electron,</b> e várias bibliotecas
+          relacionadas, como:{' '}
           <b>ContextAPI, WebSockets, React Hook Form, ZOD, Material UI, etc.</b>{' '}
           Que me ajudam a desenvolver aplicações web responsivas, dinâmicas e
           escaláveis, buscando sempre aplicar as melhores práticas e manter um
