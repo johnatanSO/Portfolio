@@ -28,7 +28,7 @@ export function SkillsContent() {
           Como Desenvolvedor Web Full Stack, tenho habilidades sólidas em
           diversas tecnologias web, incluindo
           <b> HTML, CSS, SASS, Typescript, JavaScript. </b>
-          Além disso, tenho experiência com frameworks como{' '}
+          Além disso, tenho experiência com frameworks, como:{' '}
           <b>React, NextJS, Angular, Electron,</b> e várias bibliotecas
           relacionadas, como:{' '}
           <b>ContextAPI, WebSockets, React Hook Form, ZOD, Material UI, etc.</b>{' '}
