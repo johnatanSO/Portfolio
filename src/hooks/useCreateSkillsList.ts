@@ -62,5 +62,9 @@ export function useCreateSkillsList() {
       name: 'GIT',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg',
     },
+    {
+      name: 'NPM',
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg',
+    },
   ]
 }
