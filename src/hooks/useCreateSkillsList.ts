@@ -43,6 +43,10 @@ export function useCreateSkillsList() {
       colorWhite: true,
     },
     {
+      name: 'JEST',
+      src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg',
+    },
+    {
       name: 'MONOGODB',
       src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg',
     },
